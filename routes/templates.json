@@ -977,7 +977,7 @@
         "attributes": {
             "viewBox": "53 55 565.5 501",
             "width": "566",
-            "height": "500",
+            "height": "660",
             "xmlns": "http://www.w3.org/2000/svg",
             "xmlns:xlink": "http://www.w3.org/1999/xlink"
         },
@@ -2770,6 +2770,35 @@
                             "opacity": ".75",
                             "transform": "matrix(-1 0 0 1 372.22 55)"
                         }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "element": "label",
+        "name": "scheduleADemo",
+        "style": "background-color: #FBFCFE; border-radius: 24px; box-shadow: 5px 5px 5px rgba(54, 83, 107, 0.08); box-sizing: border-box; display: flex; max-width: 445px; min-height: 48px; position: relative; width: 100%;",
+        "children": [
+            {
+                "element": "input",
+                "style": "border: none; border-radius: 24px; box-sizing: border-box; color: #36536B; display: flex; font-family: \"Public Sans\", serif; font-size: 0.9375rem; font-weight: bold; outline: none; padding-inline: 27px 190px; width: 100%;",
+                "attributes": {
+                    "id": "cwrapProperty[emailId=email]",
+                    "pattern": "cwrapGlobal[inputs.email.pattern]",
+                    "placeholder": "Enter email address",
+                    "required": "",
+                    "autocomplete": "cwrapGlobal[inputs.email.id]"
+                }
+            },
+            {
+                "element": "button",
+                "text": "Schedule a Demo",
+                "style": "background-color: #BA4270; border: none; border-radius: 24px; border-radius: 24px; box-sizing: border-box; color: #FBFCFE; font-family: \"Public Sans\", serif; font-size: 0.9375rem; font-weight: bold; height: 100%; letter-spacing: -0.0075rem; max-width: 173px; position: absolute; right: 0; transition: 300ms; width: 100%;",
+                "extend": [
+                    {
+                        "extension": ":hover",
+                        "style": "background-color: #DA6D97;"
                     }
                 ]
             }

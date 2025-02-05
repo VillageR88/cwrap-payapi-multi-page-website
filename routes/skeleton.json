@@ -22,7 +22,7 @@
         {
           "element": "div",
           "name": "firstRow",
-          "style": "align-items: center; display: flex; justify-content: space-between; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
+          "style": "align-items: center; display: flex; justify-content: space-between; margin-bottom: 96px; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
           "children": [
             {
               "element": "form",
@@ -30,36 +30,12 @@
               "children": [
                 {
                   "element": "h1",
-                  "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 4.5rem; font-weight: 400; letter-spacing: -0.034375rem; line-height: 4.5rem;",
+                  "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 4.5rem; font-weight: 400; letter-spacing: -0.034375rem; line-height: 4.5rem; margin-bottom: 48px;",
                   "text": "Start building with our APIs for absolutely free."
                 },
                 {
-                  "element": "label",
-                  "style": "background-color: #FBFCFE; border-radius: 24px; box-shadow: 5px 5px 5px rgba(54, 83, 107, 0.08); box-sizing: border-box; display: flex; margin-top: 48px; max-width: 445px; min-height: 48px; position: relative; width: 100%;",
-                  "children": [
-                    {
-                      "element": "input",
-                      "style": "border: none; border-radius: 24px; box-sizing: border-box; color: #36536B; display: flex; font-family: \"Public Sans\", serif; font-size: 0.9375rem; font-weight: bold; outline: none; padding-inline: 27px 190px; width: 100%;",
-                      "attributes": {
-                        "id": "cwrapGlobal[inputs.email.id]",
-                        "pattern": "cwrapGlobal[inputs.email.pattern]",
-                        "placeholder": "Enter email address",
-                        "required": "",
-                        "autocomplete": "cwrapGlobal[inputs.email.id]"
-                      }
-                    },
-                    {
-                      "element": "button",
-                      "text": "Schedule a Demo",
-                      "style": "background-color: #BA4270; border: none; border-radius: 24px; border-radius: 24px; box-sizing: border-box; color: #FBFCFE; font-family: \"Public Sans\", serif; font-size: 0.9375rem; font-weight: bold; height: 100%; letter-spacing: -0.0075rem; max-width: 173px; position: absolute; right: 0; transition: 300ms; width: 100%;",
-                      "extend": [
-                        {
-                          "extension": ":hover",
-                          "style": "background-color: #DA6D97;"
-                        }
-                      ]
-                    }
-                  ]
+                  "element": "cwrap-template",
+                  "text": "cwrapTemplate[scheduleADemo]"
                 },
                 {
                   "element": "div",
@@ -192,7 +168,7 @@
         {
           "element": "div",
           "name": "fourthRow",
-          "style": "display: flex; justify-content: space-between; margin-top: 150px;",
+          "style": "background: calc(50% + 45em) 0 no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); display: flex; justify-content: space-between; min-height: 780px;",
           "children": [
             {
               "element": "div",
@@ -221,8 +197,74 @@
               ]
             }
           ]
+        },
+        {
+          "element": "div",
+          "name": "fifthRow",
+          "style": "display: flex; marin-inline: auto; width: 100%;",
+          "children": [
+            {
+              "element": "ul",
+              "style": "display: flex; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
+              "blueprint": {
+                "count": "3",
+                "element": "li",
+                "style": "align-items: center; display: flex; flex-direction: column; gap: 32px; max-width: 350px;",
+                "children": [
+                  {
+                    "element": "img",
+                    "attributes": {
+                      "src": "cwrapGlobal[features.cwrapIndex.image]"
+                    }
+                  },
+                  {
+                    "element": "section",
+                    "style": "align-items: center; display: flex; flex-direction: column; gap: 16px; text-align: center;",
+                    "children": [
+                      {
+                        "element": "h2",
+                        "text": "cwrapGlobal[features.cwrapIndex.title]",
+                        "style": "color: #36536B; font-family: \"Public Sans\", serif; font-size: 18px; font-weight: bold; letter-spacing: -0.14px; line-height: 25px;"
+                      },
+                      {
+                        "element": "p",
+                        "text": "cwrapGlobal[features.cwrapIndex.description]",
+                        "style": "color: #6C8294; letter-spacing: -0.12px; line-height: 25px;"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "name": "sixthRow",
+          "style": "align-items: center; display: flex; margin-inline: auto; margin-top: 96px; width: 100%;",
+          "children": [
+            {
+              "element": "form",
+              "style": "align-items: center; display: flex; justify-content: space-between; margin-bottom: 96px; margin-inline: auto; max-width: 1110px; width: 100%;",
+              "children": [
+                {
+                  "element": "h2",
+                  "text": "Ready to start?",
+                  "style": "color: #36536B;"
+                },
+                {
+                  "element": "cwrap-template",
+                  "text": "cwrapTemplate[scheduleADemo(emailId=email2)]"
+                }
+              ]
+            }
+          ]
         }
       ]
+    },
+    {
+      "element": "footer",
+      "style": "background-color: #1B262F; margin-top: auto; min-height: 100px; width: 100%;"
     },
     {
       "element": "script",
