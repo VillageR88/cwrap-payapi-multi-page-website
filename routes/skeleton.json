@@ -9,11 +9,88 @@
     ]
   },
   "element": "body",
-  "style": "background: calc(50% + 30em) -10em no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #EDF3F8; box-sizing: border-box; display: flex; flex-direction: column; margin: 0; margin-inline: auto; max-width: 90em; min-height: 100dvh;",
+  "style": "background: calc(50% + 29em) -10em no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #EDF3F8; box-sizing: border-box; display: flex; flex-direction: column; margin: 0; margin-inline: auto; max-width: 90em; min-height: 100dvh;",
   "children": [
     {
       "element": "cwrap-template",
       "text": "cwrapTemplate[nav]"
+    },
+    {
+      "element": "main",
+      "style": "width: 100%;",
+      "children": [
+        {
+          "element": "div",
+          "name": "firstRow",
+          "style": "align-items: center; display: flex; justify-content: space-between; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
+          "children": [
+            {
+              "element": "form",
+              "style": "display: flex; flex-direction: column; max-width: 546px; width: 100%;",
+              "children": [
+                {
+                  "element": "h1",
+                  "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 4.5rem; font-weight: 400; letter-spacing: -0.034375rem; line-height: 4.5rem;",
+                  "text": "Start building with our APIs for absolutely free."
+                },
+                {
+                  "element": "label",
+                  "style": "background-color: #FBFCFE; border-radius: 24px; box-sizing: border-box; display: flex; margin-top: 48px; max-width: 445px; min-height: 48px; position: relative; width: 100%;",
+                  "children": [
+                    {
+                      "element": "input",
+                      "style": "border: none; border-radius: 24px; box-sizing: border-box; color: #36536B; display: flex; font-family: \"Public Sans\", serif; font-size: 0.9375rem; font-weight: bold; outline: none; padding-inline: 27px 190px; width: 100%;",
+                      "attributes": {
+                        "id": "cwrapGlobal[inputs.email.id]",
+                        "pattern": "cwrapGlobal[inputs.email.pattern]",
+                        "placeholder": "Enter email address",
+                        "required": "",
+                        "autocomplete": "cwrapGlobal[inputs.email.id]"
+                      }
+                    },
+                    {
+                      "element": "button",
+                      "text": "Schedule a Demo",
+                      "style": "background-color: #BA4270; border: none; border-radius: 24px; border-radius: 24px; box-sizing: border-box; color: #FBFCFE; font-family: \"Public Sans\", serif; font-size: 0.9375rem; font-weight: bold; height: 100%; letter-spacing: -0.0075rem; max-width: 173px; position: absolute; right: 0; transition: 300ms; width: 100%;",
+                      "extend": [
+                        {
+                          "extension": ":hover",
+                          "style": "background-color: #DA6D97;"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "element": "div",
+                  "style": "align-items: center; color: #6C8294; display: flex; font-family: \"Public Sans\", serif; font-size: 0.9375rem; gap: 4px; letter-spacing: -0.0075rem; margin-left: 27px; margin-top: 16px;",
+                  "children": [
+                    {
+                      "element": "p",
+                      "text": "Have any questions?"
+                    },
+                    {
+                      "element": "a",
+                      "text": "Contact Us",
+                      "style": "font-weight: bold;",
+                      "attributes": {
+                        "href": "contact/"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "element": "img",
+              "style": "border-radius: 35px; margin-right: 95.5px;",
+              "attributes": {
+                "src": "./static/images/home/desktop/illustration-phone-mockup.svg"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "element": "script",

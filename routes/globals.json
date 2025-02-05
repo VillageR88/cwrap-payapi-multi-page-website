@@ -36,7 +36,38 @@
       "name": "ul",
       "type": "element",
       "style": "box-sizing: border-box; list-style: none; margin: 0; padding: 0;"
+    },
+    {
+      "name": "h1, p",
+      "type": "element",
+      "style": "margin: 0;"
+    },
+    {
+      "name": "a",
+      "type": "element",
+      "style": "color: unset; text-decoration: none;"
+    },
+    {
+      "name": "button",
+      "type": "element",
+      "style": "cursor: pointer;"
+    },
+    {
+      "name": "placeholder",
+      "type": "pseudo::",
+      "style": "color: #36536B; opacity: 0.5;"
     }
   ],
-  "const": {}
+  "const": {
+    "inputs": {
+      "name": {
+        "id": "name",
+        "pattern": "^[a-zA-Z\\s]+$"
+      },
+      "email": {
+        "id": "email",
+        "pattern": "^[a-zA-Z0-9._%+\\-]+@[a-zA-Z0-9.\\-]+\\.[a-zA-Z]{2,}$"
+      }
+    }
+  }
 }

@@ -143,7 +143,7 @@
                         }
                     ],
                     "attributes": {
-                        "href": "cwrapArray[pricing,about,contact]"
+                        "href": "{{return'';}}cwrapArray[pricing/,about/,contact/]"
                     }
                 }
             ]
