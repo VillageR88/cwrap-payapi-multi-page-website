@@ -6,7 +6,8 @@
     "build": "node build.js",
     "dev": "node cleanup.js dev && node build.js dev && node start.js dev && node server.js dev",
     "compile:dev": "tsc -p tsconfig.dev.json",
-    "compile:prod": "tsc -p tsconfig.prod.json"
+    "compile:prod": "tsc -p tsconfig.prod.json",
+    "convert-svg": "node converter/svg/svgToHtml.js"
   },
   "devDependencies": {
     "cwrap-framework": "1.0.1",

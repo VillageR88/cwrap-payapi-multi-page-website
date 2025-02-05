@@ -171,7 +171,7 @@
                 },
                 {
                   "element": "section",
-                  "style": "display: flex; flex-direction: column; gap: 24px; max-width: 445px;",
+                  "style": "display: flex; flex-direction: column; gap: 24px; margin-right: 97px; max-width: 445px;",
                   "children": [
                     {
                       "element": "h2",
@@ -200,7 +200,7 @@
               "children": [
                 {
                   "element": "section",
-                  "style": "gap: 24px; max-width: 445px;",
+                  "style": "display: flex; flex-direction: column; gap: 24px; max-width: 445px;",
                   "children": [
                     {
                       "element": "h2",
@@ -213,6 +213,10 @@
                       "style": "color: #6C8294;"
                     }
                   ]
+                },
+                {
+                  "element": "cwrap-template",
+                  "text": "cwrapTemplate[illustrationSimpleUi]"
                 }
               ]
             }
