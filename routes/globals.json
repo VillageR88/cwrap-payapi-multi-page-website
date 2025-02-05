@@ -4,7 +4,7 @@
     "link": [
       {
         "rel": "stylesheet",
-        "href": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap",
+        "href": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap",
         "type": "text/css"
       }
     ],
@@ -38,7 +38,7 @@
       "style": "box-sizing: border-box; list-style: none; margin: 0; padding: 0;"
     },
     {
-      "name": "h1, p",
+      "name": "h1, h2, p",
       "type": "element",
       "style": "margin: 0;"
     },

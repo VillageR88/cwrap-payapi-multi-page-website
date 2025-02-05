@@ -9,7 +9,7 @@
     ]
   },
   "element": "body",
-  "style": "background: calc(50% + 29em) -10em no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #EDF3F8; box-sizing: border-box; display: flex; flex-direction: column; margin: 0; margin-inline: auto; max-width: 90em; min-height: 100dvh;",
+  "style": "background: calc(50% + 29em) -10em no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #EDF3F8; box-sizing: border-box; display: flex; flex-direction: column; margin: 0; margin-inline: auto; min-height: 100dvh;",
   "children": [
     {
       "element": "cwrap-template",
@@ -35,7 +35,7 @@
                 },
                 {
                   "element": "label",
-                  "style": "background-color: #FBFCFE; border-radius: 24px; box-sizing: border-box; display: flex; margin-top: 48px; max-width: 445px; min-height: 48px; position: relative; width: 100%;",
+                  "style": "background-color: #FBFCFE; border-radius: 24px; box-shadow: 5px 5px 5px rgba(54, 83, 107, 0.08); box-sizing: border-box; display: flex; margin-top: 48px; max-width: 445px; min-height: 48px; position: relative; width: 100%;",
                   "children": [
                     {
                       "element": "input",
@@ -82,11 +82,95 @@
               ]
             },
             {
-              "element": "img",
-              "style": "border-radius: 35px; margin-right: 95.5px;",
-              "attributes": {
-                "src": "./static/images/home/desktop/illustration-phone-mockup.svg"
-              }
+              "element": "cwrap-template",
+              "text": "cwrapTemplate[illustrationPhoneMockup]"
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "name": "secondRow",
+          "style": "background: calc(50% - 35.2em) -22em no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #1B262F; display: flex; left: 0; margin-top: 75.57px; min-height: 472px; width: 100%;",
+          "children": [
+            {
+              "element": "div",
+              "style": "display: flex; margin-inline: auto; max-width: 90em; min-height: 100%; width: 100%;",
+              "children": [
+                {
+                  "element": "div",
+                  "style": "align-items: center; box-sizing: border-box; display: flex; height: 100%; justify-content: space-between; padding: 100px 163px 100px 165px; width: 100%;",
+                  "children": [
+                    {
+                      "element": "div",
+                      "style": "display: flex; flex-direction: column; gap: 32px;",
+                      "children": [
+                        {
+                          "element": "section",
+                          "style": "color: #FBFCFE; display: flex; flex-direction: column; gap: 24px; max-width: 445px;",
+                          "children": [
+                            {
+                              "element": "h2",
+                              "text": "Who we work with",
+                              "style": "font-family: \"DM Serif Display\", serif; font-size: 3rem; font-weight: 400; letter-spacing: -0.023125rem; line-height: 3.5rem;"
+                            },
+                            {
+                              "element": "p",
+                              "text": "Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users.",
+                              "style": "font-family: \"Public Sans\", serif; font-size: 0.9375rem; line-height: 1.75rem; opacity: 0.7;"
+                            }
+                          ]
+                        },
+                        {
+                          "element": "a",
+                          "text": "About Us",
+                          "style": "align-items: center; background-color: transparent; border: 0.0625rem solid #FBFCFE; border-radius: 1.5rem; box-sizing: border-box; color: #FBFCFE; display: flex; font-family: \"Public Sans\", serif; font-size: 0.9375rem; font-weight: bold; justify-content: center; letter-spacing: -0.0075rem; max-width: 8.0625rem; min-height: 3rem; transition: 300ms;",
+                          "extend": [
+                            {
+                              "extension": ":hover",
+                              "style": "background-color: #FBFCFE; color: #1B262F;"
+                            }
+                          ],
+                          "attributes": {
+                            "href": "about/"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "element": "ul",
+                      "style": "align-items: center; display: grid; gap: 39px 16px; grid-template-columns: repeat(3, auto); justify-content: space-between; justify-items: center; max-width: 536px; min-height: 103px; width: 100%;",
+                      "blueprint": {
+                        "count": "6",
+                        "element": "li",
+                        "style": "width: fit-content;",
+                        "children": [
+                          {
+                            "element": "cwrap-template",
+                            "text": "cwrapTemplate[cwrapArray[teslaIcon,microsoftIcon,hpIcon,oracleIcon,googleIcon,nvidiaIcon]]"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "name": "thirdRow",
+          "style": "margin-inline: auto; margin-top: 150px; max-width: 90em; width: 100%;",
+          "children": [
+            {
+              "element": "div",
+              "style": "display: flex; justify-content: space-between; margin-inline: auto; min-height: 284px; width: 100%;",
+              "children": [
+                {
+                  "element": "cwrap-template",
+                  "text": "cwrapTemplate[illustrationEasyToImplement]"
+                }
+              ]
             }
           ]
         }
