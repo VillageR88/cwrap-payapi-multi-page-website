@@ -98,7 +98,7 @@
               "children": [
                 {
                   "element": "div",
-                  "style": "align-items: center; box-sizing: border-box; display: flex; height: 100%; justify-content: space-between; padding: 100px 163px 100px 165px; width: 100%;",
+                  "style": "align-items: center; box-sizing: border-box; display: flex; height: 100%; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
                   "children": [
                     {
                       "element": "div",
@@ -163,7 +163,7 @@
           "children": [
             {
               "element": "div",
-              "style": "align-items: center; display: flex; gap: 24px; justify-content: space-between; margin-inline: auto; max-width: 1015px; min-height: 284px; width: 100%;",
+              "style": "align-items: center; display: flex; gap: 24px; justify-content: space-between; margin-inline: auto; max-width: 1110px; min-height: 284px; width: 100%;",
               "children": [
                 {
                   "element": "cwrap-template",
@@ -181,6 +181,35 @@
                     {
                       "element": "p",
                       "text": "Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.",
+                      "style": "color: #6C8294;"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "div",
+          "name": "fourthRow",
+          "style": "display: flex; justify-content: space-between; margin-top: 150px;",
+          "children": [
+            {
+              "element": "div",
+              "style": "margin-inline: auto; max-width: 1110px; width: 100%;",
+              "children": [
+                {
+                  "element": "section",
+                  "style": "gap: 24px; max-width: 445px;",
+                  "children": [
+                    {
+                      "element": "h2",
+                      "text": "Simple UI & UX",
+                      "style": "color: #36536B;"
+                    },
+                    {
+                      "element": "p",
+                      "text": "Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion.",
                       "style": "color: #6C8294;"
                     }
                   ]

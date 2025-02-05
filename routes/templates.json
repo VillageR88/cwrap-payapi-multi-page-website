@@ -824,6 +824,7 @@
     },
     {
         "element": "svg",
+        "style": "box-shadow: 24px 24px 40px rgba(54, 83, 107, 0.2);",
         "name": "illustrationEasyToImplement",
         "attributes": {
             "width": "445",
