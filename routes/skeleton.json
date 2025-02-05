@@ -110,13 +110,12 @@
                           "children": [
                             {
                               "element": "h2",
-                              "text": "Who we work with",
-                              "style": "font-family: \"DM Serif Display\", serif; font-size: 3rem; font-weight: 400; letter-spacing: -0.023125rem; line-height: 3.5rem;"
+                              "text": "Who we work with"
                             },
                             {
                               "element": "p",
                               "text": "Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users.",
-                              "style": "font-family: \"Public Sans\", serif; font-size: 0.9375rem; line-height: 1.75rem; opacity: 0.7;"
+                              "style": "opacity: 0.7;"
                             }
                           ]
                         },
@@ -164,11 +163,27 @@
           "children": [
             {
               "element": "div",
-              "style": "display: flex; justify-content: space-between; margin-inline: auto; min-height: 284px; width: 100%;",
+              "style": "align-items: center; display: flex; gap: 24px; justify-content: space-between; margin-inline: auto; max-width: 1015px; min-height: 284px; width: 100%;",
               "children": [
                 {
                   "element": "cwrap-template",
                   "text": "cwrapTemplate[illustrationEasyToImplement]"
+                },
+                {
+                  "element": "section",
+                  "style": "display: flex; flex-direction: column; gap: 24px; max-width: 445px;",
+                  "children": [
+                    {
+                      "element": "h2",
+                      "text": "Easy to implement",
+                      "style": "color: #36536B;"
+                    },
+                    {
+                      "element": "p",
+                      "text": "Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.",
+                      "style": "color: #6C8294;"
+                    }
+                  ]
                 }
               ]
             }

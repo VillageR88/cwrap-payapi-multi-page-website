@@ -43,6 +43,16 @@
       "style": "margin: 0;"
     },
     {
+      "name": "h2",
+      "type": "element",
+      "style": "font-family: \"DM Serif Display\", serif; font-size: 3rem; font-weight: 400; letter-spacing: -0.023125rem; line-height: 3.5rem;"
+    },
+    {
+      "name": "p",
+      "type": "element",
+      "style": "font-family: \"Public Sans\", serif; font-size: 0.9375rem; line-height: 1.75rem;"
+    },
+    {
       "name": "a",
       "type": "element",
       "style": "color: unset; text-decoration: none;"

@@ -300,6 +300,7 @@
     },
     {
         "element": "svg",
+        "style": "margin-right: 95.5px;",
         "name": "illustrationPhoneMockup",
         "attributes": {
             "height": "499.43",
@@ -825,9 +826,10 @@
         "element": "svg",
         "name": "illustrationEasyToImplement",
         "attributes": {
-            "width": "605",
-            "height": "444",
-            "xmlns": "http://www.w3.org/2000/svg"
+            "width": "445",
+            "height": "284",
+            "xmlns": "http://www.w3.org/2000/svg",
+            "viewBox": "55 55 445 284"
         },
         "children": [
             {
