@@ -196,7 +196,7 @@
           "children": [
             {
               "element": "div",
-              "style": "margin-inline: auto; max-width: 1110px; width: 100%;",
+              "style": "align-items: center; display: flex; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
               "children": [
                 {
                   "element": "section",
