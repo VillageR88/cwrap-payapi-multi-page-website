@@ -1,5 +1,6 @@
 {
   "element": "svg",
+  "name": "illustrationSimpleUi",
   "attributes": {
     "width": "722",
     "height": "660",
@@ -19,7 +20,7 @@
             "width": "202.9%",
             "height": "153.1%",
             "filterUnits": "objectBoundingBox",
-            "id": "a"
+            "id": "illustration-simple-ui_svg__a"
           },
           "children": [
             {
@@ -56,7 +57,7 @@
             "width": "131.2%",
             "height": "128.8%",
             "filterUnits": "objectBoundingBox",
-            "id": "g"
+            "id": "illustration-simple-ui_svg__g"
           },
           "children": [
             {
@@ -101,7 +102,7 @@
             "width": "202.9%",
             "height": "153.1%",
             "filterUnits": "objectBoundingBox",
-            "id": "i"
+            "id": "illustration-simple-ui_svg__i"
           },
           "children": [
             {
@@ -138,7 +139,7 @@
             "width": "127%",
             "height": "237.5%",
             "filterUnits": "objectBoundingBox",
-            "id": "m"
+            "id": "illustration-simple-ui_svg__m"
           },
           "children": [
             {
@@ -183,7 +184,7 @@
             "width": "127%",
             "height": "237.5%",
             "filterUnits": "objectBoundingBox",
-            "id": "o"
+            "id": "illustration-simple-ui_svg__o"
           },
           "children": [
             {
@@ -228,7 +229,7 @@
             "width": "127%",
             "height": "237.5%",
             "filterUnits": "objectBoundingBox",
-            "id": "q"
+            "id": "illustration-simple-ui_svg__q"
           },
           "children": [
             {
@@ -273,7 +274,7 @@
             "width": "127%",
             "height": "237.5%",
             "filterUnits": "objectBoundingBox",
-            "id": "s"
+            "id": "illustration-simple-ui_svg__s"
           },
           "children": [
             {
@@ -318,7 +319,7 @@
             "width": "127%",
             "height": "237.5%",
             "filterUnits": "objectBoundingBox",
-            "id": "u"
+            "id": "illustration-simple-ui_svg__u"
           },
           "children": [
             {
@@ -363,7 +364,7 @@
             "width": "127%",
             "height": "237.5%",
             "filterUnits": "objectBoundingBox",
-            "id": "w"
+            "id": "illustration-simple-ui_svg__w"
           },
           "children": [
             {
@@ -408,7 +409,7 @@
             "width": "127%",
             "height": "237.5%",
             "filterUnits": "objectBoundingBox",
-            "id": "y"
+            "id": "illustration-simple-ui_svg__y"
           },
           "children": [
             {
@@ -453,7 +454,7 @@
             "width": "127%",
             "height": "198.2%",
             "filterUnits": "objectBoundingBox",
-            "id": "A"
+            "id": "illustration-simple-ui_svg__A"
           },
           "children": [
             {
@@ -493,7 +494,7 @@
         {
           "element": "rect",
           "attributes": {
-            "id": "h",
+            "id": "illustration-simple-ui_svg__h",
             "x": "0",
             "y": "0",
             "width": "176",
@@ -504,7 +505,7 @@
         {
           "element": "rect",
           "attributes": {
-            "id": "n",
+            "id": "illustration-simple-ui_svg__n",
             "x": "0",
             "y": "0",
             "width": "204",
@@ -515,7 +516,7 @@
         {
           "element": "rect",
           "attributes": {
-            "id": "p",
+            "id": "illustration-simple-ui_svg__p",
             "x": "0",
             "y": "0",
             "width": "204",
@@ -526,7 +527,7 @@
         {
           "element": "rect",
           "attributes": {
-            "id": "r",
+            "id": "illustration-simple-ui_svg__r",
             "x": "0",
             "y": "0",
             "width": "204",
@@ -537,7 +538,7 @@
         {
           "element": "rect",
           "attributes": {
-            "id": "t",
+            "id": "illustration-simple-ui_svg__t",
             "x": "0",
             "y": "0",
             "width": "204",
@@ -548,7 +549,7 @@
         {
           "element": "rect",
           "attributes": {
-            "id": "v",
+            "id": "illustration-simple-ui_svg__v",
             "x": "0",
             "y": "0",
             "width": "204",
@@ -559,7 +560,7 @@
         {
           "element": "rect",
           "attributes": {
-            "id": "x",
+            "id": "illustration-simple-ui_svg__x",
             "x": "0",
             "y": "0",
             "width": "204",
@@ -570,7 +571,7 @@
         {
           "element": "rect",
           "attributes": {
-            "id": "z",
+            "id": "illustration-simple-ui_svg__z",
             "x": "0",
             "y": "0",
             "width": "204",
@@ -581,7 +582,7 @@
         {
           "element": "rect",
           "attributes": {
-            "id": "B",
+            "id": "illustration-simple-ui_svg__B",
             "x": "0",
             "y": "0",
             "width": "204",
@@ -593,28 +594,28 @@
           "element": "path",
           "attributes": {
             "d": "M35.776.57H227.01c18.34 0 33.208 14.235 33.208 31.795v435.27c0 17.56-14.867 31.796-33.208 31.796H35.776c-18.34 0-33.208-14.236-33.208-31.796V32.365C2.568 14.805 17.436.569 35.776.569z",
-            "id": "b"
+            "id": "illustration-simple-ui_svg__b"
           }
         },
         {
           "element": "path",
           "attributes": {
             "d": "M93.602 0H19.196C8.09 0 0 7.563 0 17.441v422.39c0 12.88 12.502 24.292 26.64 24.292h179.332c13.618 0 26.64-11.5 26.64-24.292V18.583c0-11.84-8.79-18.513-19.196-18.583H137.83c-.287.047-5.479 2.182-7.673 7.563-2.195 5.382-6.61 9.672-11.445 9.672h-5.615c-2.298 0-8.348-2.23-11.411-9.672C98.623.121 93.888.047 93.602 0z",
-            "id": "f"
+            "id": "illustration-simple-ui_svg__f"
           }
         },
         {
           "element": "path",
           "attributes": {
             "d": "M35.776.57H227.01c18.34 0 33.208 14.235 33.208 31.795v435.27c0 17.56-14.867 31.796-33.208 31.796H35.776c-18.34 0-33.208-14.236-33.208-31.796V32.365C2.568 14.805 17.436.569 35.776.569z",
-            "id": "j"
+            "id": "illustration-simple-ui_svg__j"
           }
         },
         {
           "element": "path",
           "attributes": {
             "d": "M93.602 0H19.196C8.09 0 0 7.563 0 17.441v422.39c0 12.88 12.502 24.292 26.64 24.292h179.332c13.618 0 26.64-11.5 26.64-24.292V18.583c0-11.84-8.79-18.513-19.196-18.583H137.83c-.287.047-5.479 2.182-7.673 7.563-2.195 5.382-6.61 9.672-11.445 9.672h-5.615c-2.298 0-8.348-2.23-11.411-9.672C98.623.121 93.888.047 93.602 0z",
-            "id": "k"
+            "id": "illustration-simple-ui_svg__k"
           }
         },
         {
@@ -624,7 +625,7 @@
             "y1": "0%",
             "x2": "50%",
             "y2": "100%",
-            "id": "c"
+            "id": "illustration-simple-ui_svg__c"
           },
           "children": [
             {
@@ -657,7 +658,7 @@
             "y1": "50%",
             "x2": "30.702%",
             "y2": "50%",
-            "id": "d"
+            "id": "illustration-simple-ui_svg__d"
           },
           "children": [
             {
@@ -700,7 +701,7 @@
             "y1": "50%",
             "x2": "30.591%",
             "y2": "50%",
-            "id": "e"
+            "id": "illustration-simple-ui_svg__e"
           },
           "children": [
             {
@@ -755,15 +756,15 @@
               "element": "use",
               "attributes": {
                 "fill": "#000",
-                "filter": "url(#a)",
-                "xlink:href": "#b"
+                "filter": "url(#illustration-simple-ui_svg__a)",
+                "xlink:href": "#illustration-simple-ui_svg__b"
               }
             },
             {
               "element": "use",
               "attributes": {
                 "fill": "#213648",
-                "xlink:href": "#b"
+                "xlink:href": "#illustration-simple-ui_svg__b"
               }
             }
           ]
@@ -792,7 +793,7 @@
               "element": "use",
               "attributes": {
                 "fill": "#36536B",
-                "xlink:href": "#f"
+                "xlink:href": "#illustration-simple-ui_svg__f"
               }
             }
           ]
@@ -811,15 +812,15 @@
                   "element": "use",
                   "attributes": {
                     "fill": "#000",
-                    "filter": "url(#g)",
-                    "xlink:href": "#h"
+                    "filter": "url(#illustration-simple-ui_svg__g)",
+                    "xlink:href": "#illustration-simple-ui_svg__h"
                   }
                 },
                 {
                   "element": "use",
                   "attributes": {
                     "fill": "#FBFCFE",
-                    "xlink:href": "#h"
+                    "xlink:href": "#illustration-simple-ui_svg__h"
                   }
                 }
               ]
@@ -951,15 +952,15 @@
                   "element": "use",
                   "attributes": {
                     "fill": "#000",
-                    "filter": "url(#i)",
-                    "xlink:href": "#j"
+                    "filter": "url(#illustration-simple-ui_svg__i)",
+                    "xlink:href": "#illustration-simple-ui_svg__j"
                   }
                 },
                 {
                   "element": "use",
                   "attributes": {
                     "fill": "#213648",
-                    "xlink:href": "#j"
+                    "xlink:href": "#illustration-simple-ui_svg__j"
                   }
                 }
               ]
@@ -987,14 +988,14 @@
                 {
                   "element": "mask",
                   "attributes": {
-                    "id": "l",
+                    "id": "illustration-simple-ui_svg__l",
                     "fill": "#fff"
                   },
                   "children": [
                     {
                       "element": "use",
                       "attributes": {
-                        "xlink:href": "#k"
+                        "xlink:href": "#illustration-simple-ui_svg__k"
                       }
                     }
                   ]
@@ -1003,13 +1004,13 @@
                   "element": "use",
                   "attributes": {
                     "fill": "#EDF3F8",
-                    "xlink:href": "#k"
+                    "xlink:href": "#illustration-simple-ui_svg__k"
                   }
                 },
                 {
                   "element": "g",
                   "attributes": {
-                    "mask": "url(#l)"
+                    "mask": "url(#illustration-simple-ui_svg__l)"
                   },
                   "children": [
                     {
@@ -1022,15 +1023,15 @@
                           "element": "use",
                           "attributes": {
                             "fill": "#000",
-                            "filter": "url(#m)",
-                            "xlink:href": "#n"
+                            "filter": "url(#illustration-simple-ui_svg__m)",
+                            "xlink:href": "#illustration-simple-ui_svg__n"
                           }
                         },
                         {
                           "element": "use",
                           "attributes": {
                             "fill": "#FBFCFE",
-                            "xlink:href": "#n"
+                            "xlink:href": "#illustration-simple-ui_svg__n"
                           }
                         }
                       ]
@@ -1095,15 +1096,15 @@
                           "element": "use",
                           "attributes": {
                             "fill": "#000",
-                            "filter": "url(#o)",
-                            "xlink:href": "#p"
+                            "filter": "url(#illustration-simple-ui_svg__o)",
+                            "xlink:href": "#illustration-simple-ui_svg__p"
                           }
                         },
                         {
                           "element": "use",
                           "attributes": {
                             "fill": "#FBFCFE",
-                            "xlink:href": "#p"
+                            "xlink:href": "#illustration-simple-ui_svg__p"
                           }
                         }
                       ]
@@ -1168,15 +1169,15 @@
                           "element": "use",
                           "attributes": {
                             "fill": "#000",
-                            "filter": "url(#q)",
-                            "xlink:href": "#r"
+                            "filter": "url(#illustration-simple-ui_svg__q)",
+                            "xlink:href": "#illustration-simple-ui_svg__r"
                           }
                         },
                         {
                           "element": "use",
                           "attributes": {
                             "fill": "#FBFCFE",
-                            "xlink:href": "#r"
+                            "xlink:href": "#illustration-simple-ui_svg__r"
                           }
                         }
                       ]
@@ -1241,15 +1242,15 @@
                           "element": "use",
                           "attributes": {
                             "fill": "#000",
-                            "filter": "url(#s)",
-                            "xlink:href": "#t"
+                            "filter": "url(#illustration-simple-ui_svg__s)",
+                            "xlink:href": "#illustration-simple-ui_svg__t"
                           }
                         },
                         {
                           "element": "use",
                           "attributes": {
                             "fill": "#FBFCFE",
-                            "xlink:href": "#t"
+                            "xlink:href": "#illustration-simple-ui_svg__t"
                           }
                         }
                       ]
@@ -1318,15 +1319,15 @@
                               "element": "use",
                               "attributes": {
                                 "fill": "#000",
-                                "filter": "url(#u)",
-                                "xlink:href": "#v"
+                                "filter": "url(#illustration-simple-ui_svg__u)",
+                                "xlink:href": "#illustration-simple-ui_svg__v"
                               }
                             },
                             {
                               "element": "use",
                               "attributes": {
                                 "fill": "#FBFCFE",
-                                "xlink:href": "#v"
+                                "xlink:href": "#illustration-simple-ui_svg__v"
                               }
                             }
                           ]
@@ -1397,15 +1398,15 @@
                               "element": "use",
                               "attributes": {
                                 "fill": "#000",
-                                "filter": "url(#w)",
-                                "xlink:href": "#x"
+                                "filter": "url(#illustration-simple-ui_svg__w)",
+                                "xlink:href": "#illustration-simple-ui_svg__x"
                               }
                             },
                             {
                               "element": "use",
                               "attributes": {
                                 "fill": "#FBFCFE",
-                                "xlink:href": "#x"
+                                "xlink:href": "#illustration-simple-ui_svg__x"
                               }
                             }
                           ]
@@ -1476,15 +1477,15 @@
                               "element": "use",
                               "attributes": {
                                 "fill": "#000",
-                                "filter": "url(#y)",
-                                "xlink:href": "#z"
+                                "filter": "url(#illustration-simple-ui_svg__y)",
+                                "xlink:href": "#illustration-simple-ui_svg__z"
                               }
                             },
                             {
                               "element": "use",
                               "attributes": {
                                 "fill": "#FBFCFE",
-                                "xlink:href": "#z"
+                                "xlink:href": "#illustration-simple-ui_svg__z"
                               }
                             }
                           ]
@@ -1546,7 +1547,7 @@
                 {
                   "element": "g",
                   "attributes": {
-                    "mask": "url(#l)"
+                    "mask": "url(#illustration-simple-ui_svg__l)"
                   },
                   "children": [
                     {
@@ -1559,15 +1560,15 @@
                           "element": "use",
                           "attributes": {
                             "fill": "#000",
-                            "filter": "url(#A)",
-                            "xlink:href": "#B"
+                            "filter": "url(#illustration-simple-ui_svg__A)",
+                            "xlink:href": "#illustration-simple-ui_svg__B"
                           }
                         },
                         {
                           "element": "use",
                           "attributes": {
                             "fill": "#FBFCFE",
-                            "xlink:href": "#B"
+                            "xlink:href": "#illustration-simple-ui_svg__B"
                           }
                         }
                       ]
@@ -1622,7 +1623,7 @@
                   "element": "g",
                   "attributes": {
                     "fill": "#FFF",
-                    "mask": "url(#l)"
+                    "mask": "url(#illustration-simple-ui_svg__l)"
                   },
                   "children": [
                     {
@@ -1731,7 +1732,7 @@
                   "element": "path",
                   "attributes": {
                     "fill": "#36536B",
-                    "mask": "url(#l)",
+                    "mask": "url(#illustration-simple-ui_svg__l)",
                     "d": "M0 0h233v114H0z"
                   }
                 }
@@ -1742,7 +1743,7 @@
               "attributes": {
                 "d": "M225.18 0H32.356C23.352.549 15.05 4.657 7.447 12.324c4.89-4.268 13.61-9.98 25.14-9.98h192.362c11.53 0 20.25 5.712 25.14 9.98C242.486 4.657 234.183.549 225.18 0z",
                 "fill-opacity": ".65",
-                "fill": "url(#c)",
+                "fill": "url(#illustration-simple-ui_svg__c)",
                 "opacity": ".596",
                 "transform": "translate(55.568 55)"
               }
@@ -1751,7 +1752,7 @@
               "element": "path",
               "attributes": {
                 "d": "M252.431 462.67V34.983c0-11.476-4.217-15.718-6.733-18.442-2.516-2.723-2.623-4.113.992-2.056 3.615 2.056 10.845 8.047 10.845 20.498V462.67c0 12.451-7.23 18.441-10.845 20.498-3.615 2.056-3.508.667-.992-2.057s6.733-6.966 6.733-18.441z",
-                "fill": "url(#d)",
+                "fill": "url(#illustration-simple-ui_svg__d)",
                 "opacity": ".75",
                 "transform": "translate(55.568 55)"
               }
@@ -1760,7 +1761,7 @@
               "element": "path",
               "attributes": {
                 "d": "M8.548 462.67V34.983c0-11.476-4.217-15.718-6.733-18.442-2.516-2.723-2.623-4.113.992-2.056 3.615 2.056 10.845 8.047 10.845 20.498V462.67c0 12.451-7.23 18.441-10.845 20.498-3.615 2.056-3.508.667-.992-2.057s6.733-6.966 6.733-18.441z",
-                "fill": "url(#e)",
+                "fill": "url(#illustration-simple-ui_svg__e)",
                 "opacity": ".75",
                 "transform": "matrix(-1 0 0 1 69.22 55)"
               }
@@ -1772,7 +1773,7 @@
           "attributes": {
             "d": "M225.18 0H32.356C23.352.549 15.05 4.657 7.447 12.324c4.89-4.268 13.61-9.98 25.14-9.98h192.362c11.53 0 20.25 5.712 25.14 9.98C242.486 4.657 234.183.549 225.18 0z",
             "fill-opacity": ".65",
-            "fill": "url(#c)",
+            "fill": "url(#illustration-simple-ui_svg__c)",
             "opacity": ".596",
             "transform": "translate(358.568 55)"
           }
@@ -1781,7 +1782,7 @@
           "element": "path",
           "attributes": {
             "d": "M252.431 462.67V34.983c0-11.476-4.217-15.718-6.733-18.442-2.516-2.723-2.623-4.113.992-2.056 3.615 2.056 10.845 8.047 10.845 20.498V462.67c0 12.451-7.23 18.441-10.845 20.498-3.615 2.056-3.508.667-.992-2.057s6.733-6.966 6.733-18.441z",
-            "fill": "url(#d)",
+            "fill": "url(#illustration-simple-ui_svg__d)",
             "opacity": ".75",
             "transform": "translate(358.568 55)"
           }
@@ -1790,7 +1791,7 @@
           "element": "path",
           "attributes": {
             "d": "M8.548 462.67V34.983c0-11.476-4.217-15.718-6.733-18.442-2.516-2.723-2.623-4.113.992-2.056 3.615 2.056 10.845 8.047 10.845 20.498V462.67c0 12.451-7.23 18.441-10.845 20.498-3.615 2.056-3.508.667-.992-2.057s6.733-6.966 6.733-18.441z",
-            "fill": "url(#e)",
+            "fill": "url(#illustration-simple-ui_svg__e)",
             "opacity": ".75",
             "transform": "matrix(-1 0 0 1 372.22 55)"
           }

@@ -39,12 +39,18 @@ const convertElement = (element, elementName) => {
     attributes: element.$ || {},
   };
 
+  if (element._) {
+    converted.text = element._;
+  }
+
   if (element.children) {
     converted.children = element.children.map((child) =>
       convertElement(child, child.element)
     );
   } else {
-    const childrenElements = Object.keys(element).filter((key) => key !== "$");
+    const childrenElements = Object.keys(element).filter(
+      (key) => key !== "$" && key !== "_"
+    );
     if (childrenElements.length > 0) {
       converted.children = childrenElements.flatMap((childElementName) => {
         const childElement = element[childElementName];
