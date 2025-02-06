@@ -9,6 +9,38 @@
       }
     ]
   },
+  "classroom": [
+    {
+      "name": "user-invalid::placeholder",
+      "type": "pseudo:",
+      "style": "border-bottom-color: #FF0000; color: #FF0000;"
+    },
+    {
+      "name": "label:has(*:user-invalid:placeholder-shown)::before",
+      "type": "element",
+      "style": "bottom: -18px; color: #FF0000; font-family: \"Public Sans\", serif; font-size: 11px; left: 20px; position: absolute;"
+    },
+    {
+      "name": "li:nth-of-type(1) > label:has(*:user-invalid:placeholder-shown)::before",
+      "type": "element",
+      "style": "content: 'This field can’t be empty'; opacity: 0.5;"
+    },
+    {
+      "name": "li:nth-of-type(2) > label:has(*:user-invalid:placeholder-shown)::before",
+      "type": "element",
+      "style": "content: 'This field can’t be empty'; opacity: 0.5;"
+    },
+    {
+      "name": "li:nth-of-type(5) > label:has(*:user-invalid:placeholder-shown)::before",
+      "type": "element",
+      "style": "content: 'This field can’t be empty'; opacity: 0.5;"
+    },
+    {
+      "name": "li:nth-of-type(2) > label:has(*:user-invalid)::before",
+      "type": "element",
+      "style": "bottom: -18px; color: #FF0000; content: 'Please use a valid email address'; font-family: \"Public Sans\", serif; font-size: 11px; left: 20px; position: absolute;"
+    }
+  ],
   "element": "cwrap-template",
   "text": "cwrapTemplate[body]",
   "passover": [
@@ -38,10 +70,41 @@
                     "children": [
                       {
                         "element": "label",
+                        "style": "position: relative;",
+                        "extend": [
+                          {
+                            "extension": " > input:focus",
+                            "style": "border-bottom-color: #36536B;"
+                          },
+                          {
+                            "extension": ":has(*:user-invalid:placeholder-shown) > input",
+                            "style": "border-bottom-color: #FF0000;"
+                          },
+                          {
+                            "extension": ":has(*:user-invalid:placeholder-shown) > input:focus",
+                            "style": "border-bottom-color: #FF0000;"
+                          },
+                          {
+                            "extension": ":has(*:user-invalid) > input:nth-of-type(1)",
+                            "style": "border-bottom-color: #FF0000; color: #FF0000;"
+                          },
+                          {
+                            "extension": ":has(*:user-invalid) > input:nth-of-type(1):focus",
+                            "style": "border-bottom-color: #FF0000; color: #FF0000;"
+                          },
+                          {
+                            "extension": ":has(*:user-invalid:placeholder-shown) > textarea",
+                            "style": "border-bottom-color: #FF0000;"
+                          },
+                          {
+                            "extension": ":has(*:user-invalid:placeholder-shown) > textarea:focus",
+                            "style": "border-bottom-color: #FF0000;"
+                          }
+                        ],
                         "children": [
                           {
                             "element": "cwrapArray[input,input,input,input,textarea]",
-                            "style": "background-color: unset; border: none; border-bottom: 1px solid rgba(54, 83, 107, 0.5); color: #36536B; display: flex; font-family: \"Public Sans\", serif; font-size: 15px; height: cwrapArray[50,50,50,50,120]px; letter-spacing: -0.12px; line-height: 25px; margin-top: cwrapArray[0,12,12,12,20]px; max-width: 445px; outline: none; padding-inline: 20px; resize: cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,none]; width: 100%;",
+                            "style": "background-color: unset; border: none; border-bottom: 1px solid rgba(54, 83, 107, 0.5); color: #36536B; display: flex; font-family: \"Public Sans\", serif; font-size: 15px; height: cwrapArray[60,60,60,60,130]px; letter-spacing: -0.12px; line-height: 25px; margin-top: cwrapArray[0,12,12,12,20]px; max-width: 445px; outline: none; padding-inline: 20px; resize: cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,none]; width: 100%;",
                             "extend": [
                               {
                                 "extension": ":focus",
