@@ -31,12 +31,12 @@
             "children": [
               {
                 "element": "h2",
-                "text": "cwrapGlobal[the.cwrapIndex.title]",
+                "text": "cwrapGlobal[our.cwrapIndex.title]",
                 "style": "color: #36536B; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px; max-width: 255px; width: 100%;"
               },
               {
                 "element": "p",
-                "text": "cwrapGlobal[the.cwrapIndex.description]",
+                "text": "cwrapGlobal[our.cwrapIndex.description]",
                 "style": "color: #6C8294;"
               }
             ]
@@ -56,6 +56,48 @@
           }
         }
       ]
+    },
+    {
+      "element": "ul",
+      "style": "display: flex; justify-content: space-between; margin-inline: auto; margin-top: -4em; max-width: 1110px; width: 100%;",
+      "blueprint": {
+        "count": "3",
+        "element": "li",
+        "style": "border-block: 1px solid rgba(54, 83, 107, 0.25); display: flex; flex-direction: column; max-width: 350px; padding-block: 16px; width: 100%;",
+        "children": [
+          {
+            "element": "h2",
+            "text": "cwrapArray[Team Members,Offices in the US,Transactions analyzed]",
+            "style": "color: #36536B; font-family: \"Public Sans\", serif; font-size: 16px; font-weight: 400; line-height: 28px; opacity: 0.7;"
+          },
+          {
+            "element": "p",
+            "text": "cwrapArray[300+,3,10M+]",
+            "style": "color: #BA4270; font-family: \"DM Serif Display\", serif; font-size: 56px; letter-spacing: -0.43px; line-height: 72px;"
+          }
+        ]
+      }
+    },
+    {
+      "element": "ul",
+      "style": "display: flex; flex-direction: column; gap: 56px; margin-bottom: 100px; margin-inline: auto; margin-top: 72px; max-width: 921px; width: 100%;",
+      "blueprint": {
+        "count": "2",
+        "element": "li",
+        "style": "display: flex; width: 100%;",
+        "children": [
+          {
+            "element": "h2",
+            "text": "cwrapGlobal[the.cwrapIndex.title]",
+            "style": "color: #36536B; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px; max-width: 255px; width: 100%;"
+          },
+          {
+            "element": "p",
+            "text": "cwrapGlobal[the.cwrapIndex.description]",
+            "style": "color: #6C8294;"
+          }
+        ]
+      }
     }
   ]
 }
