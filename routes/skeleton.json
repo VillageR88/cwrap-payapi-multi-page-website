@@ -264,7 +264,7 @@
     },
     {
       "element": "footer",
-      "style": "align-items: center; background-color: #1B262F; display: flex; margin-top: auto; min-height: 100px; width: 100%;",
+      "style": "align-items: center; background: calc(50% + 45.3em) -9em no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #1B262F; display: flex; margin-top: auto; min-height: 100px; width: 100%;",
       "children": [
         {
           "element": "div",
