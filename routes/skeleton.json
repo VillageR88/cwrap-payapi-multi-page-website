@@ -16,6 +16,16 @@
       "element": "div",
       "name": "firstRow",
       "style": "align-items: center; display: flex; justify-content: space-between; margin-bottom: 96px; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 1200px",
+          "style": "box-sizing: border-box; padding-inline: 39px;"
+        },
+        {
+          "query": "max-width: 1024px",
+          "style": "flex-direction: column-reverse;"
+        }
+      ],
       "children": [
         {
           "element": "form",
@@ -24,6 +34,12 @@
             {
               "element": "h1",
               "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 4.5rem; font-weight: 400; letter-spacing: -0.034375rem; line-height: 4.5rem; margin-bottom: 48px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1200px",
+                  "style": "-0.37px; font-size: 48px; line-height: 56px;"
+                }
+              ],
               "text": "Start building with our APIs for absolutely free."
             },
             {
