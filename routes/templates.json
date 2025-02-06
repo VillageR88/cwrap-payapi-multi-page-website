@@ -153,6 +153,12 @@
         "element": "nav",
         "name": "nav",
         "style": "margin-inline: auto; width: 100%; max-width: 90em;",
+        "mediaQueries": [
+            {
+                "query": "max-width: 1200px",
+                "style": "padding-inline: 39px; max-width: unset; box-sizing: border-box;"
+            }
+        ],
         "children": [
             {
                 "element": "div",
@@ -301,6 +307,16 @@
     {
         "element": "svg",
         "style": "margin-right: 95.5px;",
+        "mediaQueries": [
+            {
+                "query": "max-width: 1200px",
+                "style": "margin-right: 40px;"
+            },
+            {
+                "query": "max-width: 1024px",
+                "style": "margin-right: unset; max-width: 25%; min-width: 159px; height: fit-content;"
+            }
+        ],
         "name": "illustrationPhoneMockup",
         "attributes": {
             "height": "499.43",
@@ -2907,6 +2923,16 @@
         "element": "body",
         "name": "body",
         "style": "background: {{return cwrapRoute !== '' ? 'calc(50% + 29em) -33em' : 'calc(50% + 29em) -10em'}} no-repeat url('{{return cwrapRoute !== '' ? '..' : '.'}}/static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #EDF3F8; box-sizing: border-box; display: flex; flex-direction: column; margin: 0; margin-inline: auto; min-height: 100dvh;",
+        "mediaQueries": [
+            {
+                "query": "max-width: 1024px",
+                "style": "background-position: 55% -30em; background-size: 120% 50em;"
+            },
+            {
+                "query": "max-width: 768px",
+                "style": "background-position: 50% -30em;"
+            }
+        ],
         "children": [
             {
                 "element": "cwrap-template",

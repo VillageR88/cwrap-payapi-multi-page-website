@@ -16,14 +16,36 @@
       "element": "div",
       "name": "firstRow",
       "style": "align-items: center; display: flex; justify-content: space-between; margin-bottom: 96px; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 1200px",
+          "style": "box-sizing: border-box; max-width: unset; padding-inline: 39px;"
+        },
+        {
+          "query": "max-width: 1024px",
+          "style": "flex-direction: column-reverse; gap: 48px; margin-top: 48px;"
+        }
+      ],
       "children": [
         {
           "element": "form",
           "style": "display: flex; flex-direction: column; max-width: 546px; width: 100%;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1024px",
+              "style": "align-items: center; text-align: center;"
+            }
+          ],
           "children": [
             {
               "element": "h1",
               "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 4.5rem; font-weight: 400; letter-spacing: -0.034375rem; line-height: 4.5rem; margin-bottom: 48px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1024px",
+                  "style": "-0.37px; font-size: 48px; line-height: 56px;"
+                }
+              ],
               "text": "Start building with our APIs for absolutely free."
             },
             {
@@ -60,18 +82,46 @@
       "element": "div",
       "name": "secondRow",
       "style": "background: calc(50% - 35.2em) -22em no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #1B262F; display: flex; left: 0; margin-top: 75.57px; min-height: 472px; width: 100%;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 1024px",
+          "style": "background-position: 50% 310%; background-size: 100% 50em; min-height: unset; padding-block: 88px;"
+        }
+      ],
       "children": [
         {
           "element": "div",
           "style": "display: flex; margin-inline: auto; max-width: 90em; min-height: 100%; width: 100%;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1200px",
+              "style": "box-sizing: border-box; box-sizing: border-box; max-width: unset; max-width: unset; padding-inline: 39px;"
+            }
+          ],
           "children": [
             {
               "element": "div",
               "style": "align-items: center; box-sizing: border-box; display: flex; height: 100%; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1200px",
+                  "style": "max-width: unset;"
+                },
+                {
+                  "query": "max-width: 1024px",
+                  "style": "align-items: center; flex-direction: column-reverse; gap: 64px; justify-content: center; text-align: center;"
+                }
+              ],
               "children": [
                 {
                   "element": "div",
                   "style": "display: flex; flex-direction: column; gap: 32px;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 1024px",
+                      "style": "align-items: center; text-align: center;"
+                    }
+                  ],
                   "children": [
                     {
                       "element": "section",
@@ -84,7 +134,17 @@
                         {
                           "element": "p",
                           "text": "Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users.",
-                          "style": "opacity: 0.7;"
+                          "style": "opacity: 0.7;",
+                          "mediaQueries": [
+                            {
+                              "query": "max-width: 1200px",
+                              "style": "margin-right: 80px;"
+                            },
+                            {
+                              "query": "max-width: 1024px",
+                              "style": "margin-right: unset;"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -96,6 +156,12 @@
                         {
                           "extension": ":hover",
                           "style": "background-color: #FBFCFE; color: #1B262F;"
+                        }
+                      ],
+                      "mediaQueries": [
+                        {
+                          "query": "max-width: 1024px",
+                          "style": "max-width: 129px; width: 100%;"
                         }
                       ],
                       "attributes": {
