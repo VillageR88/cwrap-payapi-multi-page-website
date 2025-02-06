@@ -11,5 +11,51 @@
   },
   "element": "cwrap-template",
   "text": "cwrapTemplate[body]",
-  "passover": []
+  "passover": [
+    {
+      "element": "div",
+      "style": "align-items: start; display: flex; flex-direction: column; margin-bottom: 96px; margin-inline: auto; margin-top: 74px; max-width: 921px; width: 100%;",
+      "children": [
+        {
+          "element": "h1",
+          "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 3.5rem; font-weight: 400; letter-spacing: -0.027rem; line-height: 3.5rem; margin-bottom: 72px; max-width: 650px;",
+          "text": "We empower innovators by delivering access to the financial system"
+        },
+        {
+          "element": "ul",
+          "style": "display: flex; flex-direction: column; gap: 56px; width: 100%;",
+          "blueprint": {
+            "count": "2",
+            "element": "li",
+            "style": "display: flex; width: 100%;",
+            "children": [
+              {
+                "element": "h2",
+                "text": "cwrapGlobal[the.cwrapIndex.title]",
+                "style": "color: #36536B; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px; max-width: 255px; width: 100%;"
+              },
+              {
+                "element": "p",
+                "text": "cwrapGlobal[the.cwrapIndex.description]",
+                "style": "color: #6C8294;"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "element": "div",
+      "style": "margin-top: -8em; min-height: 780px; width: 100%; background: calc(50% + -53em) 0 no-repeat url('{{return cwrapContext.get('prefix')}}/static/images/shared/desktop/bg-pattern-circle.svg'); display: flex; align-items: center;",
+      "children": [
+        {
+          "element": "img",
+          "style": "display: flex; height: 500px; margin-inline: auto; max-width: 90em; object-fit: cover; object-position: 45%; width: 100%;",
+          "attributes": {
+            "src": "../static/images/about/desktop/image-team-members.jpg"
+          }
+        }
+      ]
+    }
+  ]
 }
