@@ -120,6 +120,34 @@
         "title": "Consumer Payments",
         "description": "It’s easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account."
       }
-    ]
+    ],
+    "pricing": {
+      "plan": [
+        {
+          "title": "Free Plan",
+          "description": "Build and test using our core set of products with up to 100 API requests",
+          "price": "$0.00"
+        },
+        {
+          "title": "Basic Plan",
+          "description": "Launch your project with unlimited requests and no contractual minimums",
+          "price": "$249.00"
+        },
+        {
+          "title": "Premium Plan",
+          "description": "Get tailored solutions, volume pricing, and dedicated support for your team",
+          "price": "$499.00"
+        }
+      ],
+      "features": [
+        "Transactions",
+        "Auth",
+        "Identity",
+        "Investments",
+        "Assets",
+        "Liabilities",
+        "Income"
+      ]
+    }
   }
 }

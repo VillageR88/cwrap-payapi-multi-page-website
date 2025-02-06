@@ -11,5 +11,69 @@
   },
   "element": "cwrap-template",
   "text": "cwrapTemplate[body]",
-  "passover": []
+  "passover": [
+    {
+      "element": "div",
+      "style": "align-items: center; display: flex; margin-bottom: 96px; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
+      "children": [
+        {
+          "element": "form",
+          "style": "display: flex; flex-direction: column; width: 100%;",
+          "children": [
+            {
+              "element": "h1",
+              "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 3.5rem; font-weight: 400; letter-spacing: -0.027rem; line-height: 3.5rem; margin-bottom: 72px;",
+              "text": "Pricing"
+            },
+            {
+              "element": "ul",
+              "style": "display: flex; justify-content: space-between;",
+              "blueprint": {
+                "count": "3",
+                "element": "li",
+                "style": "display: flex; flex-direction: column; max-width: 350px; width: 100%;",
+                "children": [
+                  {
+                    "element": "div",
+                    "children": [
+                      {
+                        "element": "h2",
+                        "text": "cwrapGlobal[pricing.plan.cwrapIndex.title]",
+                        "style": "color: #BA4270; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px;"
+                      },
+                      {
+                        "element": "div",
+                        "style": "display: flex; flex-direction: column;",
+                        "children": [
+                          {
+                            "element": "p",
+                            "text": "cwrapGlobal[pricing.plan.cwrapIndex.description]",
+                            "style": "color: #6C8294; margin-top: 16px;"
+                          },
+                          {
+                            "element": "p",
+                            "text": "cwrapGlobal[pricing.plan.cwrapIndex.price]",
+                            "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 56px; letter-spacing: -0.43px; line-height: 72px; margin-top: 8px;"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "element": "ul",
+                    "style": "border-block: 1px solid rgba(54,83,107,0.25); display: flex; flex-direction: column; margin-top: 24px; padding-block: 24px;",
+                    "blueprint": {
+                      "count": "7",
+                      "element": "li",
+                      "text": "cwrapGlobal[pricing.features.cwrapIndex1]"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
