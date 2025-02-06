@@ -41,12 +41,19 @@
                         "children": [
                           {
                             "element": "cwrapArray[input,input,input,input,textarea]",
-                            "style": "background-color: unset; border: none; border-bottom: 1px solid rgba(54, 83, 107, 0.5); display: flex; font-family: \"Public Sans\", serif; font-size: 15px; height: cwrapArray[50,50,50,50,120]px; letter-spacing: -0.12px; line-height: 25px; margin-top: cwrapArray[0,12,12,12,20]px; max-width: 445px; outline: none; padding-inline: 20px; resize: cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,none]; width: 100%;",
+                            "style": "background-color: unset; border: none; border-bottom: 1px solid rgba(54, 83, 107, 0.5); color: #36536B; display: flex; font-family: \"Public Sans\", serif; font-size: 15px; height: cwrapArray[50,50,50,50,120]px; letter-spacing: -0.12px; line-height: 25px; margin-top: cwrapArray[0,12,12,12,20]px; max-width: 445px; outline: none; padding-inline: 20px; resize: cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,none]; width: 100%;",
+                            "extend": [
+                              {
+                                "extension": ":focus",
+                                "style": "border-bottom-color: #36536B;"
+                              }
+                            ],
                             "attributes": {
                               "id": "cwrapGlobal[contactForm.cwrapIndex.id]",
                               "placeholder": "cwrapGlobal[contactForm.cwrapIndex.placeholder]",
                               "autocomplete": "cwrapGlobal[contactForm.cwrapIndex.autocomplete]",
-                              "required": "cwrapArray[,,cwrapOmit,cwrapOmit,]"
+                              "required": "cwrapArray[,,cwrapOmit,cwrapOmit,]",
+                              "pattern": "cwrapArray[cwrapOmit cwrapBreak cwrapGlobal[contactForm.1.pattern] cwrapBreak cwrapOmit cwrapBreak cwrapOmit cwrapBreak cwrapOmit]"
                             }
                           }
                         ]
@@ -107,6 +114,32 @@
                   ],
                   "attributes": {
                     "type": "submit"
+                  }
+                }
+              ]
+            },
+            {
+              "element": "div",
+              "style": "display: flex; flex-direction: column; gap: 40px; margin-top: 8em; max-width: 541px; width: 100%;",
+              "children": [
+                {
+                  "element": "h2",
+                  "text": "Join the thousands of innovators that are already building with us",
+                  "style": "color: #36536B; font-size: 24px; font-weight: 400; letter-spacing: -0.18px; line-height: 32px; max-width: 445px; opacity: 0.75;"
+                },
+                {
+                  "element": "ul",
+                  "style": "align-items: center; display: grid; gap: 39px 16px; grid-template-columns: repeat(3, auto); justify-content: space-between; justify-items: center; min-height: 104px; width: 100%;",
+                  "blueprint": {
+                    "count": "6",
+                    "element": "li",
+                    "style": "width: fit-content;",
+                    "children": [
+                      {
+                        "element": "cwrap-template",
+                        "text": "cwrapTemplate[cwrapArray[teslaIcon(svgFill=#36536B),microsoftIcon(svgFill=#36536B),hpIcon(svgFill=#36536B),oracleIcon(svgFill=#36536B),googleIcon(svgFill=#36536B),nvidiaIcon(svgFill=#36536B)]]"
+                      }
+                    ]
                   }
                 }
               ]
