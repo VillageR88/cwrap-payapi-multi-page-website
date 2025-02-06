@@ -277,6 +277,15 @@
             {
               "element": "cwrap-template",
               "text": "cwrapTemplate[routeNavigation(linksColor=#FBFCFE)]"
+            },
+            {
+              "element": "div",
+              "style": "align-items: center; display: flex; gap: 24px; margin-left: auto;",
+              "blueprint": {
+                "count": "3",
+                "element": "cwrap-template",
+                "text": "cwrapTemplate[cwrapArray[facebookIcon,twitterIcon,linkedinIcon]]"
+              }
             }
           ]
         }
