@@ -1,0 +1,15 @@
+{
+  "context": "{{const prefix=cwrapRoute !== undefined ? '..' : '.'; cwrapContext.set('prefix',prefix); return '';}}",
+  "head": {
+    "link": [
+      {
+        "rel": "shortcut icon",
+        "href": "{{return cwrapContext.get('prefix')}}/favicon.ico",
+        "type": "image/x-icon"
+      }
+    ]
+  },
+  "element": "cwrap-template",
+  "text": "cwrapTemplate[body]",
+  "passover": []
+}
