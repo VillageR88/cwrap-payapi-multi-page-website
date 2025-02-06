@@ -8,13 +8,9 @@
       }
     ]
   },
-  "element": "body",
-  "style": "background: calc(50% + 29em) -10em no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #EDF3F8; box-sizing: border-box; display: flex; flex-direction: column; margin: 0; margin-inline: auto; min-height: 100dvh;",
-  "children": [
-    {
-      "element": "cwrap-template",
-      "text": "cwrapTemplate[nav]"
-    },
+  "element": "cwrap-template",
+  "text": "cwrapTemplate[body]",
+  "passover": [
     {
       "element": "main",
       "style": "width: 100%;",
@@ -257,35 +253,6 @@
                   "text": "cwrapTemplate[scheduleADemo(emailId=email2)]"
                 }
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "element": "footer",
-      "style": "align-items: center; background: calc(50% + 45.3em) -9em no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #1B262F; display: flex; margin-top: auto; min-height: 100px; width: 100%;",
-      "children": [
-        {
-          "element": "div",
-          "style": "align-items: center; display: flex; margin-inline: auto; max-width: 1110px; width: 100%;",
-          "children": [
-            {
-              "element": "cwrap-template",
-              "text": "cwrapTemplate[logo(logoColor=white)]"
-            },
-            {
-              "element": "cwrap-template",
-              "text": "cwrapTemplate[routeNavigation(linksColor=#FBFCFE)]"
-            },
-            {
-              "element": "div",
-              "style": "align-items: center; display: flex; gap: 24px; margin-left: auto;",
-              "blueprint": {
-                "count": "3",
-                "element": "cwrap-template",
-                "text": "cwrapTemplate[cwrapArray[facebookIcon,twitterIcon,linkedinIcon]]"
-              }
             }
           ]
         }
