@@ -177,7 +177,7 @@
                             }
                         ],
                         "attributes": {
-                            "href": "#"
+                            "href": "#email2"
                         }
                     }
                 ]
@@ -2913,7 +2913,8 @@
                 "text": "cwrapTemplate[nav]"
             },
             {
-                "element": "cwrap-passover"
+                "element": "cwrap-template",
+                "text": "cwrapTemplate[main]"
             },
             {
                 "element": "footer",
@@ -2949,6 +2950,38 @@
                 "attributes": {
                     "src": "{{return cwrapContext.get('prefix')}}/static/scripts/main.js"
                 }
+            }
+        ]
+    },
+    {
+        "element": "main",
+        "name": "main",
+        "style": "width: 100%;",
+        "children": [
+            {
+                "element": "cwrap-passover"
+            },
+            {
+                "element": "div",
+                "name": "sixthRow",
+                "style": "align-items: center; display: flex; margin-inline: auto; margin-top: 96px; width: 100%;",
+                "children": [
+                    {
+                        "element": "form",
+                        "style": "align-items: center; display: flex; justify-content: space-between; margin-bottom: 96px; margin-inline: auto; max-width: 1110px; width: 100%;",
+                        "children": [
+                            {
+                                "element": "h2",
+                                "text": "Ready to start?",
+                                "style": "color: #36536B;"
+                            },
+                            {
+                                "element": "cwrap-template",
+                                "text": "cwrapTemplate[scheduleADemo(emailId=email2)]"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

@@ -13,249 +13,221 @@
   "text": "cwrapTemplate[body]",
   "passover": [
     {
-      "element": "main",
-      "style": "width: 100%;",
+      "element": "div",
+      "name": "firstRow",
+      "style": "align-items: center; display: flex; justify-content: space-between; margin-bottom: 96px; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
+      "children": [
+        {
+          "element": "form",
+          "style": "display: flex; flex-direction: column; max-width: 546px; width: 100%;",
+          "children": [
+            {
+              "element": "h1",
+              "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 4.5rem; font-weight: 400; letter-spacing: -0.034375rem; line-height: 4.5rem; margin-bottom: 48px;",
+              "text": "Start building with our APIs for absolutely free."
+            },
+            {
+              "element": "cwrap-template",
+              "text": "cwrapTemplate[scheduleADemo]"
+            },
+            {
+              "element": "div",
+              "style": "align-items: center; color: #6C8294; display: flex; font-family: \"Public Sans\", serif; font-size: 0.9375rem; gap: 4px; letter-spacing: -0.0075rem; margin-left: 27px; margin-top: 16px;",
+              "children": [
+                {
+                  "element": "p",
+                  "text": "Have any questions?"
+                },
+                {
+                  "element": "a",
+                  "text": "Contact Us",
+                  "style": "font-weight: bold;",
+                  "attributes": {
+                    "href": "contact/"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "element": "cwrap-template",
+          "text": "cwrapTemplate[illustrationPhoneMockup]"
+        }
+      ]
+    },
+    {
+      "element": "div",
+      "name": "secondRow",
+      "style": "background: calc(50% - 35.2em) -22em no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #1B262F; display: flex; left: 0; margin-top: 75.57px; min-height: 472px; width: 100%;",
       "children": [
         {
           "element": "div",
-          "name": "firstRow",
-          "style": "align-items: center; display: flex; justify-content: space-between; margin-bottom: 96px; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
+          "style": "display: flex; margin-inline: auto; max-width: 90em; min-height: 100%; width: 100%;",
           "children": [
             {
-              "element": "form",
-              "style": "display: flex; flex-direction: column; max-width: 546px; width: 100%;",
+              "element": "div",
+              "style": "align-items: center; box-sizing: border-box; display: flex; height: 100%; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
               "children": [
                 {
-                  "element": "h1",
-                  "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 4.5rem; font-weight: 400; letter-spacing: -0.034375rem; line-height: 4.5rem; margin-bottom: 48px;",
-                  "text": "Start building with our APIs for absolutely free."
-                },
-                {
-                  "element": "cwrap-template",
-                  "text": "cwrapTemplate[scheduleADemo]"
-                },
-                {
                   "element": "div",
-                  "style": "align-items: center; color: #6C8294; display: flex; font-family: \"Public Sans\", serif; font-size: 0.9375rem; gap: 4px; letter-spacing: -0.0075rem; margin-left: 27px; margin-top: 16px;",
+                  "style": "display: flex; flex-direction: column; gap: 32px;",
                   "children": [
                     {
-                      "element": "p",
-                      "text": "Have any questions?"
+                      "element": "section",
+                      "style": "color: #FBFCFE; display: flex; flex-direction: column; gap: 24px; max-width: 445px;",
+                      "children": [
+                        {
+                          "element": "h2",
+                          "text": "Who we work with"
+                        },
+                        {
+                          "element": "p",
+                          "text": "Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users.",
+                          "style": "opacity: 0.7;"
+                        }
+                      ]
                     },
                     {
                       "element": "a",
-                      "text": "Contact Us",
-                      "style": "font-weight: bold;",
+                      "text": "About Us",
+                      "style": "align-items: center; background-color: transparent; border: 0.0625rem solid #FBFCFE; border-radius: 1.5rem; box-sizing: border-box; color: #FBFCFE; display: flex; font-family: \"Public Sans\", serif; font-size: 0.9375rem; font-weight: bold; justify-content: center; letter-spacing: -0.0075rem; max-width: 8.0625rem; min-height: 3rem; transition: 300ms;",
+                      "extend": [
+                        {
+                          "extension": ":hover",
+                          "style": "background-color: #FBFCFE; color: #1B262F;"
+                        }
+                      ],
                       "attributes": {
-                        "href": "contact/"
+                        "href": "about/"
                       }
                     }
                   ]
+                },
+                {
+                  "element": "ul",
+                  "style": "align-items: center; display: grid; gap: 39px 16px; grid-template-columns: repeat(3, auto); justify-content: space-between; justify-items: center; max-width: 536px; min-height: 103px; width: 100%;",
+                  "blueprint": {
+                    "count": "6",
+                    "element": "li",
+                    "style": "width: fit-content;",
+                    "children": [
+                      {
+                        "element": "cwrap-template",
+                        "text": "cwrapTemplate[cwrapArray[teslaIcon,microsoftIcon,hpIcon,oracleIcon,googleIcon,nvidiaIcon]]"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "div",
+      "name": "thirdRow",
+      "style": "margin-inline: auto; margin-top: 150px; max-width: 90em; width: 100%;",
+      "children": [
+        {
+          "element": "div",
+          "style": "align-items: center; display: flex; gap: 24px; justify-content: space-between; margin-inline: auto; max-width: 1110px; min-height: 284px; width: 100%;",
+          "children": [
+            {
+              "element": "cwrap-template",
+              "text": "cwrapTemplate[illustrationEasyToImplement]"
+            },
+            {
+              "element": "section",
+              "style": "display: flex; flex-direction: column; gap: 24px; margin-right: 97px; max-width: 445px;",
+              "children": [
+                {
+                  "element": "h2",
+                  "text": "Easy to implement",
+                  "style": "color: #36536B;"
+                },
+                {
+                  "element": "p",
+                  "text": "Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.",
+                  "style": "color: #6C8294;"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "element": "div",
+      "name": "fourthRow",
+      "style": "background: calc(50% + 45em) 0 no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); display: flex; justify-content: space-between; min-height: 780px;",
+      "children": [
+        {
+          "element": "div",
+          "style": "align-items: center; display: flex; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
+          "children": [
+            {
+              "element": "section",
+              "style": "display: flex; flex-direction: column; gap: 24px; max-width: 445px;",
+              "children": [
+                {
+                  "element": "h2",
+                  "text": "Simple UI & UX",
+                  "style": "color: #36536B;"
+                },
+                {
+                  "element": "p",
+                  "text": "Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion.",
+                  "style": "color: #6C8294;"
                 }
               ]
             },
             {
               "element": "cwrap-template",
-              "text": "cwrapTemplate[illustrationPhoneMockup]"
+              "text": "cwrapTemplate[illustrationSimpleUi]"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "element": "div",
+      "name": "fifthRow",
+      "style": "display: flex; marin-inline: auto; width: 100%;",
+      "children": [
         {
-          "element": "div",
-          "name": "secondRow",
-          "style": "background: calc(50% - 35.2em) -22em no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #1B262F; display: flex; left: 0; margin-top: 75.57px; min-height: 472px; width: 100%;",
-          "children": [
-            {
-              "element": "div",
-              "style": "display: flex; margin-inline: auto; max-width: 90em; min-height: 100%; width: 100%;",
-              "children": [
-                {
-                  "element": "div",
-                  "style": "align-items: center; box-sizing: border-box; display: flex; height: 100%; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
-                  "children": [
-                    {
-                      "element": "div",
-                      "style": "display: flex; flex-direction: column; gap: 32px;",
-                      "children": [
-                        {
-                          "element": "section",
-                          "style": "color: #FBFCFE; display: flex; flex-direction: column; gap: 24px; max-width: 445px;",
-                          "children": [
-                            {
-                              "element": "h2",
-                              "text": "Who we work with"
-                            },
-                            {
-                              "element": "p",
-                              "text": "Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users.",
-                              "style": "opacity: 0.7;"
-                            }
-                          ]
-                        },
-                        {
-                          "element": "a",
-                          "text": "About Us",
-                          "style": "align-items: center; background-color: transparent; border: 0.0625rem solid #FBFCFE; border-radius: 1.5rem; box-sizing: border-box; color: #FBFCFE; display: flex; font-family: \"Public Sans\", serif; font-size: 0.9375rem; font-weight: bold; justify-content: center; letter-spacing: -0.0075rem; max-width: 8.0625rem; min-height: 3rem; transition: 300ms;",
-                          "extend": [
-                            {
-                              "extension": ":hover",
-                              "style": "background-color: #FBFCFE; color: #1B262F;"
-                            }
-                          ],
-                          "attributes": {
-                            "href": "about/"
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "element": "ul",
-                      "style": "align-items: center; display: grid; gap: 39px 16px; grid-template-columns: repeat(3, auto); justify-content: space-between; justify-items: center; max-width: 536px; min-height: 103px; width: 100%;",
-                      "blueprint": {
-                        "count": "6",
-                        "element": "li",
-                        "style": "width: fit-content;",
-                        "children": [
-                          {
-                            "element": "cwrap-template",
-                            "text": "cwrapTemplate[cwrapArray[teslaIcon,microsoftIcon,hpIcon,oracleIcon,googleIcon,nvidiaIcon]]"
-                          }
-                        ]
-                      }
-                    }
-                  ]
+          "element": "ul",
+          "style": "display: flex; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
+          "blueprint": {
+            "count": "3",
+            "element": "li",
+            "style": "align-items: center; display: flex; flex-direction: column; gap: 32px; max-width: 350px;",
+            "children": [
+              {
+                "element": "img",
+                "attributes": {
+                  "src": "cwrapGlobal[features.cwrapIndex.image]"
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "element": "div",
-          "name": "thirdRow",
-          "style": "margin-inline: auto; margin-top: 150px; max-width: 90em; width: 100%;",
-          "children": [
-            {
-              "element": "div",
-              "style": "align-items: center; display: flex; gap: 24px; justify-content: space-between; margin-inline: auto; max-width: 1110px; min-height: 284px; width: 100%;",
-              "children": [
-                {
-                  "element": "cwrap-template",
-                  "text": "cwrapTemplate[illustrationEasyToImplement]"
-                },
-                {
-                  "element": "section",
-                  "style": "display: flex; flex-direction: column; gap: 24px; margin-right: 97px; max-width: 445px;",
-                  "children": [
-                    {
-                      "element": "h2",
-                      "text": "Easy to implement",
-                      "style": "color: #36536B;"
-                    },
-                    {
-                      "element": "p",
-                      "text": "Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.",
-                      "style": "color: #6C8294;"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "element": "div",
-          "name": "fourthRow",
-          "style": "background: calc(50% + 45em) 0 no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); display: flex; justify-content: space-between; min-height: 780px;",
-          "children": [
-            {
-              "element": "div",
-              "style": "align-items: center; display: flex; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
-              "children": [
-                {
-                  "element": "section",
-                  "style": "display: flex; flex-direction: column; gap: 24px; max-width: 445px;",
-                  "children": [
-                    {
-                      "element": "h2",
-                      "text": "Simple UI & UX",
-                      "style": "color: #36536B;"
-                    },
-                    {
-                      "element": "p",
-                      "text": "Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion.",
-                      "style": "color: #6C8294;"
-                    }
-                  ]
-                },
-                {
-                  "element": "cwrap-template",
-                  "text": "cwrapTemplate[illustrationSimpleUi]"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "element": "div",
-          "name": "fifthRow",
-          "style": "display: flex; marin-inline: auto; width: 100%;",
-          "children": [
-            {
-              "element": "ul",
-              "style": "display: flex; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
-              "blueprint": {
-                "count": "3",
-                "element": "li",
-                "style": "align-items: center; display: flex; flex-direction: column; gap: 32px; max-width: 350px;",
+              },
+              {
+                "element": "section",
+                "style": "align-items: center; display: flex; flex-direction: column; gap: 16px; text-align: center;",
                 "children": [
                   {
-                    "element": "img",
-                    "attributes": {
-                      "src": "cwrapGlobal[features.cwrapIndex.image]"
-                    }
+                    "element": "h2",
+                    "text": "cwrapGlobal[features.cwrapIndex.title]",
+                    "style": "color: #36536B; font-family: \"Public Sans\", serif; font-size: 18px; font-weight: bold; letter-spacing: -0.14px; line-height: 25px;"
                   },
                   {
-                    "element": "section",
-                    "style": "align-items: center; display: flex; flex-direction: column; gap: 16px; text-align: center;",
-                    "children": [
-                      {
-                        "element": "h2",
-                        "text": "cwrapGlobal[features.cwrapIndex.title]",
-                        "style": "color: #36536B; font-family: \"Public Sans\", serif; font-size: 18px; font-weight: bold; letter-spacing: -0.14px; line-height: 25px;"
-                      },
-                      {
-                        "element": "p",
-                        "text": "cwrapGlobal[features.cwrapIndex.description]",
-                        "style": "color: #6C8294; letter-spacing: -0.12px; line-height: 25px;"
-                      }
-                    ]
+                    "element": "p",
+                    "text": "cwrapGlobal[features.cwrapIndex.description]",
+                    "style": "color: #6C8294; letter-spacing: -0.12px; line-height: 25px;"
                   }
                 ]
               }
-            }
-          ]
-        },
-        {
-          "element": "div",
-          "name": "sixthRow",
-          "style": "align-items: center; display: flex; margin-inline: auto; margin-top: 96px; width: 100%;",
-          "children": [
-            {
-              "element": "form",
-              "style": "align-items: center; display: flex; justify-content: space-between; margin-bottom: 96px; margin-inline: auto; max-width: 1110px; width: 100%;",
-              "children": [
-                {
-                  "element": "h2",
-                  "text": "Ready to start?",
-                  "style": "color: #36536B;"
-                },
-                {
-                  "element": "cwrap-template",
-                  "text": "cwrapTemplate[scheduleADemo(emailId=email2)]"
-                }
-              ]
-            }
-          ]
+            ]
+          }
         }
       ]
     }
