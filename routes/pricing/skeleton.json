@@ -61,11 +61,16 @@
                   },
                   {
                     "element": "ul",
-                    "style": "border-block: 1px solid rgba(54,83,107,0.25); display: flex; flex-direction: column; margin-top: 24px; padding-block: 24px;",
+                    "style": "border-block: 1px solid rgba(54,83,107,0.25); display: flex; flex-direction: column; gap: 8px; list-style-image: url(\"../static/images/shared/desktop/icon-check.svg\"); margin-top: 24px; padding-block: 24px;",
                     "blueprint": {
                       "count": "7",
                       "element": "li",
-                      "text": "cwrapGlobal[pricing.features.cwrapIndex1]"
+                      "text": "cwrapGlobal[pricing.features.cwrapIndex1]",
+                      "style": "color: #36536B; font-family: \"Public Sans\", serif; font-size: 16px; gap: 10px; line-height: 28px; list-style: cwrapArray[cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,none,none,none,none] cwrapBreak cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,none,none] cwrapBreak cwrapOmit]; margin-left: 20px; opacity: cwrapArray[cwrapArray[1,1,1,0.5,0.5,0.5,0.5] cwrapBreak cwrapArray[1,1,1,1,1,0.5,0.5] cwrapBreak 1]; padding-left: 16px;",
+                      "attributes": {
+                        "aria-label": "cwrapArray[cwrapArray[Included,Included,Included,Not included,Not included,Not included,Not included] cwrapBreak cwrapArray[Included,Included,Included,Included,Included,Not included,Not included] cwrapBreak Included]",
+                        "aria-hidden": "cwrapArray[cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,true,true,true,true] cwrapBreak cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,true,true] cwrapBreak cwrapOmit]"
+                      }
                     }
                   }
                 ]
