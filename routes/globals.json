@@ -168,6 +168,33 @@
         "title": "The People",
         "description": "We're all passionate about building a more efficient and inclusive financial infrastructure together. At PayAPI, we have diverse backgrounds and skills."
       }
+    ],
+    "contactForm": [
+      {
+        "id": "name",
+        "placeholder": "Name",
+        "autocomplete": "name"
+      },
+      {
+        "id": "email",
+        "placeholder": "Email Address",
+        "autocomplete": "email"
+      },
+      {
+        "id": "company",
+        "placeholder": "Company Name",
+        "autocomplete": "organization"
+      },
+      {
+        "id": "title",
+        "placeholder": "Title",
+        "autocomplete": "organization-title"
+      },
+      {
+        "id": "message",
+        "placeholder": "Message",
+        "autocomplete": "off"
+      }
     ]
   }
 }
