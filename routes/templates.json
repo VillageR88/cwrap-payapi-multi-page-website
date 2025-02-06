@@ -17,7 +17,7 @@
                     {
                         "element": "g",
                         "attributes": {
-                            "fill": "#36536B",
+                            "fill": "cwrapProperty[logoColor=#36536B]",
                             "fill-rule": "evenodd"
                         },
                         "children": [
@@ -135,7 +135,7 @@
                 {
                     "element": "a",
                     "text": "cwrapArray[Pricing,About,Contact]",
-                    "style": "color: #36536B; font-family: \"Public Sans\", serif; font-size: 0.9375rem; font-weight: bold; opacity: 0.7; text-decoration: none; transition: 300ms;",
+                    "style": "color: cwrapProperty[linksColor=#36536B]; font-family: \"Public Sans\", serif; font-size: 0.9375rem; font-weight: bold; opacity: 0.7; text-decoration: none; transition: 300ms;",
                     "extend": [
                         {
                             "extension": ":hover",

@@ -264,7 +264,23 @@
     },
     {
       "element": "footer",
-      "style": "background-color: #1B262F; margin-top: auto; min-height: 100px; width: 100%;"
+      "style": "align-items: center; background-color: #1B262F; display: flex; margin-top: auto; min-height: 100px; width: 100%;",
+      "children": [
+        {
+          "element": "div",
+          "style": "align-items: center; display: flex; margin-inline: auto; max-width: 1110px; width: 100%;",
+          "children": [
+            {
+              "element": "cwrap-template",
+              "text": "cwrapTemplate[logo(logoColor=white)]"
+            },
+            {
+              "element": "cwrap-template",
+              "text": "cwrapTemplate[routeNavigation(linksColor=#FBFCFE)]"
+            }
+          ]
+        }
+      ]
     },
     {
       "element": "script",
