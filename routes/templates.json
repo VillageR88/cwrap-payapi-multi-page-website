@@ -2964,7 +2964,7 @@
             {
                 "element": "div",
                 "name": "sixthRow",
-                "style": "align-items: center; display: flex; margin-inline: auto; margin-top: 96px; width: 100%;",
+                "style": "align-items: center; display: flex; margin-inline: auto; width: 100%;",
                 "children": [
                     {
                         "element": "form",

@@ -13,70 +13,80 @@
   "text": "cwrapTemplate[body]",
   "passover": [
     {
-      "element": "div",
-      "style": "align-items: center; display: flex; margin-bottom: 96px; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
+      "element": "form",
+      "style": "align-items: start; display: flex; flex-direction: column; margin-bottom: 96px; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
       "children": [
         {
-          "element": "form",
-          "style": "display: flex; flex-direction: column; width: 100%;",
-          "children": [
-            {
-              "element": "h1",
-              "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 3.5rem; font-weight: 400; letter-spacing: -0.027rem; line-height: 3.5rem; margin-bottom: 72px;",
-              "text": "Pricing"
-            },
-            {
-              "element": "ul",
-              "style": "display: flex; justify-content: space-between;",
-              "blueprint": {
-                "count": "3",
-                "element": "li",
-                "style": "display: flex; flex-direction: column; max-width: 350px; width: 100%;",
+          "element": "h1",
+          "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 3.5rem; font-weight: 400; letter-spacing: -0.027rem; line-height: 3.5rem; margin-bottom: 72px;",
+          "text": "Pricing"
+        },
+        {
+          "element": "ul",
+          "style": "display: flex; justify-content: space-between; width: 100%;",
+          "blueprint": {
+            "count": "3",
+            "element": "li",
+            "style": "display: flex; flex-direction: column; max-width: 350px; width: 100%;",
+            "children": [
+              {
+                "element": "div",
                 "children": [
                   {
-                    "element": "div",
-                    "children": [
-                      {
-                        "element": "h2",
-                        "text": "cwrapGlobal[pricing.plan.cwrapIndex.title]",
-                        "style": "color: #BA4270; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px;"
-                      },
-                      {
-                        "element": "div",
-                        "style": "display: flex; flex-direction: column;",
-                        "children": [
-                          {
-                            "element": "p",
-                            "text": "cwrapGlobal[pricing.plan.cwrapIndex.description]",
-                            "style": "color: #6C8294; margin-top: 16px;"
-                          },
-                          {
-                            "element": "p",
-                            "text": "cwrapGlobal[pricing.plan.cwrapIndex.price]",
-                            "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 56px; letter-spacing: -0.43px; line-height: 72px; margin-top: 8px;"
-                          }
-                        ]
-                      }
-                    ]
+                    "element": "h2",
+                    "text": "cwrapGlobal[pricing.plan.cwrapIndex.title]",
+                    "style": "color: #BA4270; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px;"
                   },
                   {
-                    "element": "ul",
-                    "style": "border-block: 1px solid rgba(54,83,107,0.25); display: flex; flex-direction: column; gap: 8px; list-style-image: url(\"../static/images/shared/desktop/icon-check.svg\"); margin-top: 24px; padding-block: 24px;",
-                    "blueprint": {
-                      "count": "7",
-                      "element": "li",
-                      "text": "cwrapGlobal[pricing.features.cwrapIndex1]",
-                      "style": "color: #36536B; font-family: \"Public Sans\", serif; font-size: 16px; gap: 10px; line-height: 28px; list-style: cwrapArray[cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,none,none,none,none] cwrapBreak cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,none,none] cwrapBreak cwrapOmit]; margin-left: 20px; opacity: cwrapArray[cwrapArray[1,1,1,0.5,0.5,0.5,0.5] cwrapBreak cwrapArray[1,1,1,1,1,0.5,0.5] cwrapBreak 1]; padding-left: 16px;",
-                      "attributes": {
-                        "aria-label": "cwrapArray[cwrapArray[Included,Included,Included,Not included,Not included,Not included,Not included] cwrapBreak cwrapArray[Included,Included,Included,Included,Included,Not included,Not included] cwrapBreak Included]",
-                        "aria-hidden": "cwrapArray[cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,true,true,true,true] cwrapBreak cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,true,true] cwrapBreak cwrapOmit]"
+                    "element": "div",
+                    "style": "display: flex; flex-direction: column;",
+                    "children": [
+                      {
+                        "element": "p",
+                        "text": "cwrapGlobal[pricing.plan.cwrapIndex.description]",
+                        "style": "color: #6C8294; margin-top: 16px;"
+                      },
+                      {
+                        "element": "p",
+                        "text": "cwrapGlobal[pricing.plan.cwrapIndex.price]",
+                        "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 56px; letter-spacing: -0.43px; line-height: 72px; margin-top: 8px;"
                       }
-                    }
+                    ]
                   }
                 ]
+              },
+              {
+                "element": "ul",
+                "style": "border-block: 1px solid rgba(54,83,107,0.25); display: flex; flex-direction: column; gap: 8px; list-style-image: url(\"../static/images/shared/desktop/icon-check.svg\"); margin-top: 24px; padding-block: 24px;",
+                "blueprint": {
+                  "count": "7",
+                  "element": "li",
+                  "text": "cwrapGlobal[pricing.features.cwrapIndex1]",
+                  "style": "color: #36536B; font-family: \"Public Sans\", serif; font-size: 16px; gap: 10px; line-height: 28px; list-style: cwrapArray[cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,none,none,none,none] cwrapBreak cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,none,none] cwrapBreak cwrapOmit]; margin-left: 20px; opacity: cwrapArray[cwrapArray[1,1,1,0.5,0.5,0.5,0.5] cwrapBreak cwrapArray[1,1,1,1,1,0.5,0.5] cwrapBreak 1]; padding-left: 16px;",
+                  "attributes": {
+                    "aria-label": "cwrapArray[cwrapArray[Included,Included,Included,Not included,Not included,Not included,Not included] cwrapBreak cwrapArray[Included,Included,Included,Included,Included,Not included,Not included] cwrapBreak Included]",
+                    "aria-hidden": "cwrapArray[cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,true,true,true,true] cwrapBreak cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,true,true] cwrapBreak cwrapOmit]"
+                  }
+                }
+              },
+              {
+                "element": "button",
+                "text": "Request Access",
+                "style": "background-color: transparent; border: 1px solid #36536B; border-radius: 24px; color: #36536B; font-family: \"Public Sans\", serif; font-size: 15px; font-weight: bold; letter-spacing: -0.12px; margin-top: 24px; max-width: 168px; min-height: 48px; transition: 300ms; width: 100%;",
+                "extend": [
+                  {
+                    "extension": ":hover",
+                    "style": "background-color: #36536B; color: #FBFCFE;"
+                  }
+                ],
+                "attributes": {
+                  "type": "submit",
+                  "name": "plan",
+                  "value": "cwrapArray[free,basic,premium]"
+                }
               }
-            }
-          ]
+            ]
+          }
         }
       ]
     }

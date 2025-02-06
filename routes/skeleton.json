@@ -194,7 +194,7 @@
     {
       "element": "div",
       "name": "fifthRow",
-      "style": "display: flex; marin-inline: auto; width: 100%;",
+      "style": "display: flex; margin-bottom: 96px; marin-inline: auto; width: 100%;",
       "children": [
         {
           "element": "ul",
