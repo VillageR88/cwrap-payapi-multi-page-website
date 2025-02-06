@@ -11,6 +11,56 @@
   },
   "classroom": [
     {
+      "name": "input:-webkit-autofill",
+      "type": "element",
+      "style": "-webkit-box-shadow: 0 0 0 300px #EDF3F8 inset; -webkit-text-fill-color: #36536B; font-weight: bold;"
+    },
+    {
+      "name": "input:-webkit-autofill:hover",
+      "type": "element",
+      "style": "-webkit-box-shadow: 0 0 0 300px #EDF3F8 inset; -webkit-text-fill-color: #36536B; font-weight: bold;"
+    },
+    {
+      "name": "input:-webkit-autofill:focus",
+      "type": "element",
+      "style": "-webkit-box-shadow: 0 0 0 300px #EDF3F8 inset; -webkit-text-fill-color: #36536B; font-weight: bold;"
+    },
+    {
+      "name": "input:-webkit-autofill:active",
+      "type": "element",
+      "style": "-webkit-box-shadow: 0 0 0 300px #EDF3F8 inset; -webkit-text-fill-color: #36536B; font-weight: bold;"
+    },
+    {
+      "name": "input::-webkit-autofill",
+      "type": "element",
+      "style": "-webkit-box-shadow: 0 0 0 300px #EDF3F8 inset; -webkit-text-fill-color: #36536B; font-weight: bold; transition: background-color 500s ease-in-out 0s;"
+    },
+    {
+      "name": "input::-webkit-autofill:hover",
+      "type": "element",
+      "style": "-webkit-box-shadow: 0 0 0 300px #EDF3F8 inset; -webkit-text-fill-color: #36536B; font-weight: bold; transition: background-color 500s ease-in-out 0s;"
+    },
+    {
+      "name": "input::-webkit-autofill:focus",
+      "type": "element",
+      "style": "-webkit-box-shadow: 0 0 0 300px #EDF3F8 inset; -webkit-text-fill-color: #36536B; font-weight: bold; transition: background-color 500s ease-in-out 0s;"
+    },
+    {
+      "name": "input::-webkit-autofill:active",
+      "type": "element",
+      "style": "-webkit-box-shadow: 0 0 0 300px #EDF3F8 inset; -webkit-text-fill-color: #36536B; font-weight: bold; transition: background-color 500s ease-in-out 0s;"
+    },
+    {
+      "name": "input::before",
+      "type": "element",
+      "style": "background-color: #EDF3F8; content: ''; display: block; font-weight: bold; height: 100%; opacity: 0.6; width: 100%;"
+    },
+    {
+      "name": "input::after",
+      "type": "element",
+      "style": "background-color: #EDF3F8; content: ''; display: block; font-weight: bold; height: 100%; opacity: 0.6; width: 100%;"
+    },
+    {
       "name": "user-invalid::placeholder",
       "type": "pseudo:",
       "style": "border-bottom-color: #FF0000; color: #FF0000;"
@@ -18,7 +68,7 @@
     {
       "name": "label:has(*:user-invalid:placeholder-shown)::before",
       "type": "element",
-      "style": "bottom: -18px; color: #FF0000; font-family: \"Public Sans\", serif; font-size: 11px; left: 20px; position: absolute;"
+      "style": "bottom: -18px; color: #FF0000; font-family: \"Public Sans\", serif; font-size: 11px; left: 20px; position: absolute; z-index: 1;"
     },
     {
       "name": "li:nth-of-type(1) > label:has(*:user-invalid:placeholder-shown)::before",
