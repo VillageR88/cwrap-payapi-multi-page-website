@@ -990,6 +990,12 @@
     {
         "element": "svg",
         "name": "illustrationSimpleUi",
+        "mediaQueries": [
+            {
+                "query": "max-width: 1024px",
+                "style": "height: fit-content; max-height: 320px;"
+            }
+        ],
         "attributes": {
             "viewBox": "53 55 565.5 501",
             "width": "566",
@@ -2945,10 +2951,26 @@
             {
                 "element": "footer",
                 "style": "align-items: center; background: calc(50% + 45.3em) -9em no-repeat url('{{return cwrapContext.get('prefix')}}/static/images/shared/desktop/bg-pattern-circle.svg'); background-color: #1B262F; display: flex; margin-top: auto; min-height: 100px; width: 100%;",
+                "mediaQueries": [
+                    {
+                        "query": "max-width: 1200px",
+                        "style": "background-position: calc(50% + 35.3em) -9em;"
+                    },
+                    {
+                        "query": "max-width: 1024px",
+                        "style": "background-position: calc(50% + 25.3em) -9em;"
+                    }
+                ],
                 "children": [
                     {
                         "element": "div",
                         "style": "align-items: center; display: flex; margin-inline: auto; max-width: 1110px; width: 100%;",
+                        "mediaQueries": [
+                            {
+                                "query": "max-width: 1200px",
+                                "style": "box-sizing: border-box; max-width: unset; padding-inline: 39px;"
+                            }
+                        ],
                         "children": [
                             {
                                 "element": "cwrap-template",
@@ -2995,6 +3017,16 @@
                     {
                         "element": "form",
                         "style": "align-items: center; display: flex; justify-content: space-between; margin-bottom: 96px; margin-inline: auto; max-width: 1110px; width: 100%;",
+                        "mediaQueries": [
+                            {
+                                "query": "max-width: 1200px",
+                                "style": "box-sizing: border-box; padding-inline: 39px;"
+                            },
+                            {
+                                "query": "max-width: 1024px",
+                                "style": "flex-direction: column; gap: 40px; margin-bottom: 100px;"
+                            }
+                        ],
                         "children": [
                             {
                                 "element": "h2",

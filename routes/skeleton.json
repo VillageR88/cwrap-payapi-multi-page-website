@@ -199,6 +199,16 @@
         {
           "element": "div",
           "style": "align-items: center; display: flex; gap: 24px; justify-content: space-between; margin-inline: auto; max-width: 1110px; min-height: 284px; width: 100%;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1200px",
+              "style": "box-sizing: border-box; box-sizing: border-box; max-width: unset; max-width: unset; padding-inline: 39px;"
+            },
+            {
+              "query": "max-width: 1024px",
+              "style": "align-items: center; flex-direction: column; gap: 48px;"
+            }
+          ],
           "children": [
             {
               "element": "cwrap-template",
@@ -207,6 +217,16 @@
             {
               "element": "section",
               "style": "display: flex; flex-direction: column; gap: 24px; margin-right: 97px; max-width: 445px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1200px",
+                  "style": "margin-right: unset;"
+                },
+                {
+                  "query": "max-width: 1024px",
+                  "style": "align-items: center; text-align: center;"
+                }
+              ],
               "children": [
                 {
                   "element": "h2",
@@ -228,14 +248,36 @@
       "element": "div",
       "name": "fourthRow",
       "style": "background: calc(50% + 45em) 0 no-repeat url('./static/images/shared/desktop/bg-pattern-circle.svg'); display: flex; justify-content: space-between; min-height: 780px;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 1024px",
+          "style": "background: unset; min-height: unset;"
+        }
+      ],
       "children": [
         {
           "element": "div",
           "style": "align-items: center; display: flex; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1200px",
+              "style": "box-sizing: border-box; box-sizing: border-box; gap: 40px; max-width: unset; max-width: unset; padding-inline: 39px;"
+            },
+            {
+              "query": "max-width: 1024px",
+              "style": "flex-direction: column-reverse; margin-top: 100px;"
+            }
+          ],
           "children": [
             {
               "element": "section",
               "style": "display: flex; flex-direction: column; gap: 24px; max-width: 445px;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1024px",
+                  "style": "align-items: center; text-align: center;"
+                }
+              ],
               "children": [
                 {
                   "element": "h2",
@@ -261,10 +303,22 @@
       "element": "div",
       "name": "fifthRow",
       "style": "display: flex; margin-bottom: 96px; marin-inline: auto; width: 100%;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 1200px",
+          "style": "box-sizing: border-box; padding-inline: 39px;"
+        }
+      ],
       "children": [
         {
           "element": "ul",
-          "style": "display: flex; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
+          "style": "display: flex; gap: 40px; justify-content: space-between; margin-inline: auto; max-width: 1110px; width: 100%;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1200px",
+              "style": "margin-top: 100px; max-width: unset;"
+            }
+          ],
           "blueprint": {
             "count": "3",
             "element": "li",
