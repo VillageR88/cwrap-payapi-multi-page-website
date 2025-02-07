@@ -23,6 +23,10 @@
         {
           "query": "max-width: 1024px",
           "style": "align-items: center;"
+        },
+        {
+          "query": "max-width: 768px",
+          "style": "margin-bottom: 76px;"
         }
       ],
       "children": [
@@ -33,6 +37,10 @@
             {
               "query": "max-width: 1024px",
               "style": "font-size: 48px; letter-spacing: -0.37px; line-height: 56px; text-align: center;"
+            },
+            {
+              "query": "max-width: 768px",
+              "style": "font-size: 32px; letter-spacing: -0.25px; line-height: 36px; margin-bottom: 48px;"
             }
           ],
           "text": "We empower innovators by delivering access to the financial system"
@@ -44,6 +52,12 @@
             "count": "2",
             "element": "li",
             "style": "display: flex; width: 100%;",
+            "mediaQueries": [
+              {
+                "query": "max-width: 768px",
+                "style": "align-items: center; flex-direction: column; gap: 16px; text-align: center;"
+              }
+            ],
             "children": [
               {
                 "element": "h2",
@@ -53,6 +67,10 @@
                   {
                     "query": "max-width: 1200px",
                     "style": "max-width: 233px;"
+                  },
+                  {
+                    "query": "max-width: 768px",
+                    "style": "-0.18px; font-size: 24px; letter-spacing; line-height: 32px;"
                   }
                 ]
               },
@@ -97,13 +115,23 @@
       "mediaQueries": [
         {
           "query": "max-width: 1200px",
-          "style": "box-sizing: border-box; margin-top: 64px; max-width: unset; padding-inline: 39px;"
+          "style": "box-sizing: border-box; gap: 32px; margin-top: 64px; max-width: unset; padding-inline: 39px;"
+        },
+        {
+          "query": "max-width: 768px",
+          "style": "align-items: center; border-block: 1px solid rgba(54, 83, 107, 0.25); flex-direction: column; padding-block: 16px; text-align: center; width: 85%;"
         }
       ],
       "blueprint": {
         "count": "3",
         "element": "li",
         "style": "border-block: 1px solid rgba(54, 83, 107, 0.25); display: flex; flex-direction: column; max-width: 350px; padding-block: 16px; width: 100%;",
+        "mediaQueries": [
+          {
+            "query": "max-width: 768px",
+            "style": "border-block: unset; padding-block: unset; padding-inline: 29px;"
+          }
+        ],
         "children": [
           {
             "element": "h2",
@@ -125,12 +153,22 @@
         {
           "query": "max-width: 1200px",
           "style": "box-sizing: border-box; max-width: unset; padding-inline: 39px;"
+        },
+        {
+          "query": "max-width: 768px",
+          "style": "margin-top: 48px;"
         }
       ],
       "blueprint": {
         "count": "2",
         "element": "li",
         "style": "display: flex; width: 100%;",
+        "mediaQueries": [
+          {
+            "query": "max-width: 768px",
+            "style": "align-items: center; flex-direction: column; gap: 16px; text-align: center;"
+          }
+        ],
         "children": [
           {
             "element": "h2",
@@ -140,6 +178,10 @@
               {
                 "query": "max-width: 1200px",
                 "style": "max-width: 233px;"
+              },
+              {
+                "query": "max-width: 768px",
+                "style": "-0.18px; font-size: 24px; letter-spacing; line-height: 32px;"
               }
             ]
           },
