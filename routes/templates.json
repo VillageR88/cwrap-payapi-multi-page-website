@@ -168,7 +168,13 @@
         "children": [
             {
                 "element": "div",
-                "style": "align-items: center; max-width: 69.375em; margin-inline: auto; box-sizing: border-box; display: flex; margin-top: 2.5em; width: 100%;",
+                "style": "align-items: center; max-width: 69.375em; margin-inline: auto; box-sizing: border-box; display: flex; margin-top: 2.5em; width: 100%; align-items:center;",
+                "mediaQueries": [
+                    {
+                        "query": "max-width: 768px",
+                        "style": "justify-content: space-between; display: flex;"
+                    }
+                ],
                 "children": [
                     {
                         "element": "cwrap-template",
@@ -197,6 +203,53 @@
                         "attributes": {
                             "href": "#email2"
                         }
+                    },
+                    {
+                        "element": "button",
+                        "style": "display: none; width: fit-content; height:fit-content; box-sizing: border-box; padding: 0; position: relative; align-items: center; justify-content: center; margin: 0;",
+                        "mediaQueries": [
+                            {
+                                "query": "max-width: 768px",
+                                "style": "display: flex; background-color: unset; border: unset; height: 17px; width: 28px",
+                                "extend": [
+                                    {
+                                        "extension": ".open",
+                                        "style": "width: 22px ; height: 23px"
+                                    },
+                                    {
+                                        "extension": ".open > img:nth-of-type(1)",
+                                        "style": "opacity: 0;"
+                                    },
+                                    {
+                                        "extension": ".open > img:nth-of-type(2)",
+                                        "style": "opacity: 1;"
+                                    }
+                                ]
+                            }
+                        ],
+                        "attributes": {
+                            "id": "mobile-menu-button"
+                        },
+                        "children": [
+                            {
+                                "element": "img",
+                                "style": "position: absolute; opacity: 1; transition: 300ms;",
+                                "attributes": {
+                                    "height": "17",
+                                    "width": "28",
+                                    "src": "{{return cwrapContext.get('prefix')}}/static/images/shared/mobile/menu.svg"
+                                }
+                            },
+                            {
+                                "element": "img",
+                                "style": "position: absolute; opacity: 0; transition: 300ms;",
+                                "attributes": {
+                                    "height": "23",
+                                    "width": "22",
+                                    "src": "{{return cwrapContext.get('prefix')}}/static/images/shared/mobile/close.svg"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
