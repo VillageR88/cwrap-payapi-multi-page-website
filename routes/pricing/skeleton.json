@@ -23,6 +23,10 @@
         {
           "query": "max-width: 1024px",
           "style": "align-items: center; text-align: center;"
+        },
+        {
+          "query": "max-width: 768px",
+          "style": "margin-bottom: 80px; margin-top: 48px;"
         }
       ],
       "children": [
@@ -33,6 +37,10 @@
             {
               "query": "max-width: 1024px",
               "style": "font-size: 48px; line-height: 56px;"
+            },
+            {
+              "query": "max-width: 768px",
+              "style": "font-size: 32px; letter-spacing: -0.25px; line-height: 36px; margin-bottom: 48px;"
             }
           ],
           "text": "Pricing"
@@ -48,6 +56,10 @@
             {
               "query": "max-width: 840px",
               "style": "width: fit-content;"
+            },
+            {
+              "query": "max-width: 768px",
+              "style": "flex-direction: column; gap: 48px; max-width: 400px; width: 100%;"
             }
           ],
           "blueprint": {
@@ -58,11 +70,21 @@
               {
                 "query": "max-width: 1024px",
                 "style": "align-items: center; max-width: 233px; text-align: center;"
+              },
+              {
+                "query": "max-width: 768px",
+                "style": "max-width: 100%;"
               }
             ],
             "children": [
               {
                 "element": "div",
+                "mediaQueries": [
+                  {
+                    "query": "max-width: 768px",
+                    "style": "max-width: 327px;"
+                  }
+                ],
                 "children": [
                   {
                     "element": "h2",
@@ -106,6 +128,10 @@
                   {
                     "query": "max-width: 1024px",
                     "style": "align-items: center; width: 100%;"
+                  },
+                  {
+                    "query": "max-width: 768px",
+                    "style": "align-content: center; flex-wrap: wrap;"
                   }
                 ],
                 "blueprint": {

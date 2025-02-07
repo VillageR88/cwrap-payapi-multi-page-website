@@ -191,6 +191,10 @@
                     {
                       "query": "max-width: 768px",
                       "style": "gap: 44px 50px; grid-template-columns: repeat(2, auto); justify-content: center; max-width: unset;"
+                    },
+                    {
+                      "query": "max-width: 400px",
+                      "style": "grid-template-columns: repeat(1, auto);"
                     }
                   ],
                   "blueprint": {

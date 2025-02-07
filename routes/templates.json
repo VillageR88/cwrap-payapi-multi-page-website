@@ -2976,7 +2976,7 @@
             },
             {
                 "query": "max-width: 768px",
-                "style": "background-position: 50% -30em;"
+                "style": "background-size: 50em 50em;"
             }
         ],
         "children": [
