@@ -39,11 +39,15 @@
         },
         {
           "element": "ul",
-          "style": "display: flex; justify-content: space-between; width: 100%;",
+          "style": "display: flex; gap: 34px; justify-content: space-between; width: 100%;",
           "mediaQueries": [
             {
               "query": "max-width: 1024px",
-              "style": "align-items: center; text-align: center;"
+              "style": "align-items: center; gap: 12px; text-align: center; width: 100%;"
+            },
+            {
+              "query": "max-width: 840px",
+              "style": "width: fit-content;"
             }
           ],
           "blueprint": {
