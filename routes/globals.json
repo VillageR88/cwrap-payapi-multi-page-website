@@ -28,6 +28,21 @@
   },
   "classroom": [
     {
+      "name": "body:has(button.open) ",
+      "type": "element",
+      "style": "height: 100%; min-height: unset; overflow-y: clip;"
+    },
+    {
+      "name": "body:has(button.open) > #mobile-navigation",
+      "type": "element",
+      "style": "opacity: 1; pointer-events: auto; user-select: auto;"
+    },
+    {
+      "name": "body:has(button.open) > #mobile-navigation > div",
+      "type": "element",
+      "style": "transform: translateX(0);"
+    },
+    {
       "name": "@view-transition",
       "type": "custom",
       "style": "navigation: auto;"
