@@ -373,6 +373,7 @@
               {
                 "element": "img",
                 "attributes": {
+                  "alt": "cwrapGlobal[features.cwrapIndex.title]",
                   "src": "cwrapGlobal[features.cwrapIndex.image]"
                 }
               },

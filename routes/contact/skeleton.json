@@ -73,22 +73,22 @@
     {
       "name": "li:nth-of-type(1) > label:has(*:user-invalid:placeholder-shown)::before",
       "type": "element",
-      "style": "content: 'This field can’t be empty'; opacity: 0.5;"
+      "style": "content: 'This field can’t be empty'; display: flex; opacity: 0.5; width: max-content;"
     },
     {
       "name": "li:nth-of-type(2) > label:has(*:user-invalid:placeholder-shown)::before",
       "type": "element",
-      "style": "content: 'This field can’t be empty'; opacity: 0.5;"
+      "style": "content: 'This field can’t be empty'; display: flex; opacity: 0.5; width: max-content;"
     },
     {
       "name": "li:nth-of-type(5) > label:has(*:user-invalid:placeholder-shown)::before",
       "type": "element",
-      "style": "content: 'This field can’t be empty'; opacity: 0.5;"
+      "style": "content: 'This field can’t be empty'; display: flex; opacity: 0.5; position: absolute; width: max-content;"
     },
     {
       "name": "li:nth-of-type(2) > label:has(*:user-invalid)::before",
       "type": "element",
-      "style": "bottom: -18px; color: #FF0000; content: 'Please use a valid email address'; font-family: \"Public Sans\", serif; font-size: 11px; left: 20px; position: absolute;"
+      "style": "bottom: -18px; color: #FF0000; content: 'Please use a valid email address'; display: flex; font-family: \"Public Sans\", serif; font-size: 11px; left: 20px; position: absolute; width: max-content;"
     }
   ],
   "element": "cwrap-template",
@@ -162,7 +162,7 @@
                     "children": [
                       {
                         "element": "label",
-                        "style": "position: relative;",
+                        "style": "display: flex; position: relative;",
                         "extend": [
                           {
                             "extension": " > input:focus",

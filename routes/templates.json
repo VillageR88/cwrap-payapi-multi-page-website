@@ -11,7 +11,8 @@
                 "attributes": {
                     "width": "135",
                     "height": "38",
-                    "xmlns": "http://www.w3.org/2000/svg"
+                    "xmlns": "http://www.w3.org/2000/svg",
+                    "aria-label": "logo"
                 },
                 "children": [
                     {
@@ -234,13 +235,15 @@
                             }
                         ],
                         "attributes": {
-                            "id": "mobile-menu-button"
+                            "id": "mobile-menu-button",
+                            "aria-label": "Mobile Menu Button"
                         },
                         "children": [
                             {
                                 "element": "img",
                                 "style": "position: absolute; opacity: 1; transition: 150ms;",
                                 "attributes": {
+                                    "alt": "Menu icon",
                                     "height": "17",
                                     "width": "28",
                                     "src": "{{return cwrapRoute !== '' ? '../' : './'}}static/images/shared/mobile/menu.svg"
@@ -250,6 +253,7 @@
                                 "element": "img",
                                 "style": "position: absolute; opacity: 0; transition: 150ms;",
                                 "attributes": {
+                                    "alt": "Menu icon",
                                     "height": "23",
                                     "width": "22",
                                     "src": "{{return cwrapRoute !== '' ? '../' : './'}}static/images/shared/mobile/close.svg"
@@ -2936,7 +2940,8 @@
             }
         ],
         "attributes": {
-            "href": "#"
+            "href": "#",
+            "aria-label": "Facebook"
         },
         "children": [
             {
@@ -2969,7 +2974,8 @@
             }
         ],
         "attributes": {
-            "href": "#"
+            "href": "#",
+            "aria-label": "Twitter"
         },
         "children": [
             {
@@ -3002,7 +3008,8 @@
             }
         ],
         "attributes": {
-            "href": "#"
+            "href": "#",
+            "aria-label": "Linkedin"
         },
         "children": [
             {

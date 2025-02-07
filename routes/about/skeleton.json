@@ -104,7 +104,8 @@
             }
           ],
           "attributes": {
-            "src": "../static/images/about/desktop/image-team-members.jpg"
+            "src": "../static/images/about/desktop/image-team-members.jpg",
+            "alt": "Team members sitting next to a laptop and discussing"
           }
         }
       ]
