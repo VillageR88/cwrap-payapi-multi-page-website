@@ -115,6 +115,10 @@
             {
               "query": "max-width: 1024px",
               "style": "font-size: 48px; letter-spacing: -0.37px; line-height: 56px; text-align: center;"
+            },
+            {
+              "query": "max-width: 768px",
+              "style": "font-size: 32px; letter-spacing: -0.25px; line-height: 36px; margin-bottom: 48px;"
             }
           ],
           "text": "Submit a help request and we’ll get in touch shortly."
@@ -309,6 +313,12 @@
                 {
                   "element": "ul",
                   "style": "align-items: center; display: grid; gap: 39px 16px; grid-template-columns: repeat(3, auto); justify-content: space-between; justify-items: center; min-height: 104px; width: 100%;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 768px",
+                      "style": "gap: 40px; grid-template-columns: repeat(2, auto); justify-content: center;"
+                    }
+                  ],
                   "blueprint": {
                     "count": "6",
                     "element": "li",
