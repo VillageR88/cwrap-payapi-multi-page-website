@@ -296,6 +296,10 @@
                 {
                   "query": "max-width: 1024px",
                   "style": "align-items: center; margin-top: 64px;"
+                },
+                {
+                  "query": "max-width: 768px",
+                  "style": "min-width: unset;"
                 }
               ],
               "children": [
@@ -307,6 +311,10 @@
                     {
                       "query": "max-width: 1024px",
                       "style": "text-align: center;"
+                    },
+                    {
+                      "query": "max-width: 768px",
+                      "style": "font-size: 24px; letter-spacing: -0.18px; line-height: 32px; max-width: unset; width: 100%;"
                     }
                   ]
                 },
@@ -317,6 +325,10 @@
                     {
                       "query": "max-width: 768px",
                       "style": "gap: 40px; grid-template-columns: repeat(2, auto); justify-content: center;"
+                    },
+                    {
+                      "query": "max-width: 400px",
+                      "style": "grid-template-columns: repeat(1, auto);"
                     }
                   ],
                   "blueprint": {
