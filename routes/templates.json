@@ -155,7 +155,7 @@
                         }
                     ],
                     "attributes": {
-                        "href": "{{return cwrapContext.get('prefix')}}{{return cwrapRoute !== '' ? '/' : '/'}}cwrapArray[pricing/,about/,contact/]"
+                        "href": "{{return cwrapRoute !== '' ? '../' : './'}}cwrapArray[pricing/,about/,contact/]"
                     }
                 }
             ]
@@ -243,7 +243,7 @@
                                 "attributes": {
                                     "height": "17",
                                     "width": "28",
-                                    "src": "{{return cwrapContext.get('prefix')}}/static/images/shared/mobile/menu.svg"
+                                    "src": "{{return cwrapRoute !== '' ? '../' : './'}}static/images/shared/mobile/menu.svg"
                                 }
                             },
                             {
@@ -252,7 +252,7 @@
                                 "attributes": {
                                     "height": "23",
                                     "width": "22",
-                                    "src": "{{return cwrapContext.get('prefix')}}/static/images/shared/mobile/close.svg"
+                                    "src": "{{return cwrapRoute !== '' ? '../' : './'}}static/images/shared/mobile/close.svg"
                                 }
                             }
                         ]
@@ -3054,11 +3054,19 @@
                         "children": [
                             {
                                 "element": "div",
-                                "style": "margin-block: 95px auto; padding-top: 43px; border-top: 1px solid rgba(251, 252, 254, 0.15); margin-inline: 48px; display: flex; flex-direction: column; ",
+                                "style": "margin-block: 95px auto; padding-top: 43px; border-top: 1px solid rgba(251, 252, 254, 0.15); margin-inline: 48px; display: flex; flex-direction: column; gap: 32px;",
                                 "children": [
                                     {
                                         "element": "cwrap-template",
                                         "text": "cwrapTemplate[routeNavigation(linksColor=#FBFCFE,ulNavigation768=flex-direction:column; margin-left: unset; gap: 32px;,ulNavigation768Links=font-size: 20px;)]"
+                                    },
+                                    {
+                                        "element": "a",
+                                        "text": "Schedule a Demo",
+                                        "style": "width: 100%; min-height: 48px; border-radius: 24px; background-color: #BA4270; font-family: \"Public Sans\", serif; color: #FBFCFE; font-size: 15px; font-weight: bold; letter-spacing: -0.12px; border: none; display: flex; align-items: center; justify-content: center; cursor: pointer;",
+                                        "attributes": {
+                                            "id": "mobile-schedule"
+                                        }
                                     }
                                 ]
                             }
@@ -3136,7 +3144,7 @@
             {
                 "element": "script",
                 "attributes": {
-                    "src": "{{return cwrapContext.get('prefix')}}/static/scripts/main.js"
+                    "src": "{{return cwrapRoute !== '' ? '../' : './'}}static/scripts/main.js"
                 }
             }
         ]

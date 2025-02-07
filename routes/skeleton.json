@@ -4,7 +4,7 @@
     "link": [
       {
         "rel": "shortcut icon",
-        "href": "{{return cwrapContext.get('prefix')}}/favicon.ico",
+        "href": "{{return cwrapRoute !== '' ? '../' : './'}}/favicon.ico",
         "type": "image/x-icon"
       }
     ]

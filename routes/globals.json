@@ -35,7 +35,13 @@
     {
       "name": "body:has(button.open) > #mobile-navigation",
       "type": "element",
-      "style": "opacity: 1; pointer-events: auto; user-select: auto;"
+      "style": "display: none;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 768px",
+          "style": "display: flex; opacity: 1; pointer-events: auto; user-select: auto;"
+        }
+      ]
     },
     {
       "name": "body:has(button.open) > #mobile-navigation > div",
