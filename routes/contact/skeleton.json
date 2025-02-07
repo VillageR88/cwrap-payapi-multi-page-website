@@ -111,6 +111,12 @@
         {
           "element": "h1",
           "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 3.5rem; font-weight: 400; letter-spacing: -0.027rem; line-height: 3.5rem; margin-bottom: 72px; max-width: 730px;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1024px",
+              "style": "font-size: 48px; letter-spacing: -0.37px; line-height: 56px; text-align: center;"
+            }
+          ],
           "text": "Submit a help request and we’ll get in touch shortly."
         },
         {
@@ -120,6 +126,10 @@
             {
               "query": "max-width: 1200px",
               "style": "gap: 80px;"
+            },
+            {
+              "query": "max-width: 1024px",
+              "style": "align-items: center; flex-direction: column; gap: unset; max-width: 600px;"
             }
           ],
           "children": [
@@ -130,9 +140,21 @@
                 {
                   "element": "ul",
                   "style": "display: flex; flex-direction: column; justify-content: space-between; max-width: 445px; width: 100%;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 1024px",
+                      "style": "align-items: center; max-width: unset;"
+                    }
+                  ],
                   "blueprint": {
                     "count": "5",
                     "element": "li",
+                    "mediaQueries": [
+                      {
+                        "query": "max-width: 1024px",
+                        "style": "box-sizing: border-box; width: 100%;"
+                      }
+                    ],
                     "children": [
                       {
                         "element": "label",
@@ -177,6 +199,12 @@
                                 "style": "border-bottom-color: #36536B;"
                               }
                             ],
+                            "mediaQueries": [
+                              {
+                                "query": "max-width: 1024px",
+                                "style": "box-sizing: border-box; max-width: unset;"
+                              }
+                            ],
                             "attributes": {
                               "id": "cwrapGlobal[contactForm.cwrapIndex.id]",
                               "placeholder": "cwrapGlobal[contactForm.cwrapIndex.placeholder]",
@@ -193,6 +221,12 @@
                 {
                   "element": "label",
                   "style": "align-items: center; display: flex; gap: 26px; margin-top: 24px; max-width: 445px;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 1024px",
+                      "style": "max-width: unset;"
+                    }
+                  ],
                   "children": [
                     {
                       "element": "div",
@@ -254,13 +288,23 @@
                 {
                   "query": "max-width: 1200px",
                   "style": "min-width: 31em;"
+                },
+                {
+                  "query": "max-width: 1024px",
+                  "style": "align-items: center; margin-top: 64px;"
                 }
               ],
               "children": [
                 {
                   "element": "h2",
                   "text": "Join the thousands of innovators that are already building with us",
-                  "style": "color: #36536B; font-size: 24px; font-weight: 400; letter-spacing: -0.18px; line-height: 32px; max-width: 445px; opacity: 0.75;"
+                  "style": "color: #36536B; font-size: 24px; font-weight: 400; letter-spacing: -0.18px; line-height: 32px; max-width: 445px; opacity: 0.75;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 1024px",
+                      "style": "text-align: center;"
+                    }
+                  ]
                 },
                 {
                   "element": "ul",
