@@ -19,12 +19,22 @@
         {
           "query": "max-width: 1200px",
           "style": "box-sizing: border-box; max-width: unset; padding-inline: 39px;"
+        },
+        {
+          "query": "max-width: 1024px",
+          "style": "align-items: center;"
         }
       ],
       "children": [
         {
           "element": "h1",
           "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 3.5rem; font-weight: 400; letter-spacing: -0.027rem; line-height: 3.5rem; margin-bottom: 72px; max-width: 650px;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1024px",
+              "style": "font-size: 48px; letter-spacing: -0.37px; line-height: 56px; text-align: center;"
+            }
+          ],
           "text": "We empower innovators by delivering access to the financial system"
         },
         {
@@ -38,12 +48,18 @@
               {
                 "element": "h2",
                 "text": "cwrapGlobal[our.cwrapIndex.title]",
-                "style": "color: #36536B; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px; max-width: 255px; width: 100%;"
+                "style": "color: #36536B; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px; max-width: 255px; width: 100%;",
+                "mediaQueries": [
+                  {
+                    "query": "max-width: 1200px",
+                    "style": "max-width: 233px;"
+                  }
+                ]
               },
               {
                 "element": "p",
                 "text": "cwrapGlobal[our.cwrapIndex.description]",
-                "style": "color: #6C8294;"
+                "style": "color: #6C8294; width: fit-content;"
               }
             ]
           }
@@ -81,7 +97,7 @@
       "mediaQueries": [
         {
           "query": "max-width: 1200px",
-          "style": "box-sizing: border-box; max-width: unset; padding-inline: 39px;"
+          "style": "box-sizing: border-box; margin-top: 64px; max-width: unset; padding-inline: 39px;"
         }
       ],
       "blueprint": {
@@ -119,12 +135,18 @@
           {
             "element": "h2",
             "text": "cwrapGlobal[the.cwrapIndex.title]",
-            "style": "color: #36536B; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px; max-width: 255px; width: 100%;"
+            "style": "color: #36536B; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px; max-width: 255px; width: 100%;",
+            "mediaQueries": [
+              {
+                "query": "max-width: 1200px",
+                "style": "max-width: 233px;"
+              }
+            ]
           },
           {
             "element": "p",
             "text": "cwrapGlobal[the.cwrapIndex.description]",
-            "style": "color: #6C8294;"
+            "style": "color: #6C8294; width: fit-content;"
           }
         ]
       }

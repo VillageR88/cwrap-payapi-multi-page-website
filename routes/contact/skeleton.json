@@ -97,6 +97,16 @@
     {
       "element": "form",
       "style": "align-items: start; display: flex; flex-direction: column; margin-bottom: 96px; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 1200px",
+          "style": "box-sizing: border-box; max-width: unset; padding-inline: 39px;"
+        },
+        {
+          "query": "max-width: 1024px",
+          "style": "align-items: center;"
+        }
+      ],
       "children": [
         {
           "element": "h1",
@@ -106,6 +116,12 @@
         {
           "element": "div",
           "style": "display: flex; width: 100%;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1200px",
+              "style": "gap: 80px;"
+            }
+          ],
           "children": [
             {
               "element": "div",
@@ -234,6 +250,12 @@
             {
               "element": "div",
               "style": "display: flex; flex-direction: column; gap: 40px; margin-top: 8em; max-width: 541px; width: 100%;",
+              "mediaQueries": [
+                {
+                  "query": "max-width: 1200px",
+                  "style": "min-width: 31em;"
+                }
+              ],
               "children": [
                 {
                   "element": "h2",
