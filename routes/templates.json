@@ -853,6 +853,12 @@
     {
         "element": "svg",
         "style": "box-shadow: 24px 24px 40px rgba(54, 83, 107, 0.2);",
+        "mediaQueries": [
+            {
+                "query": "max-width: 768px",
+                "style": "width: 100%; height: fit-content;"
+            }
+        ],
         "name": "illustrationEasyToImplement",
         "attributes": {
             "width": "445",
@@ -1006,6 +1012,10 @@
             {
                 "query": "max-width: 1024px",
                 "style": "height: fit-content; max-height: 320px;"
+            },
+            {
+                "query": "max-width: 768px",
+                "style": "width: 100%; height: fit-content;"
             }
         ],
         "attributes": {
@@ -2989,6 +2999,10 @@
                     {
                         "query": "max-width: 1024px",
                         "style": "background-position: calc(50% + 25.3em) -9em;"
+                    },
+                    {
+                        "query": "max-width: 768px",
+                        "style": "background-position: calc(50%) 12em;"
                     }
                 ],
                 "children": [
@@ -2999,6 +3013,10 @@
                             {
                                 "query": "max-width: 1200px",
                                 "style": "box-sizing: border-box; max-width: unset; padding-inline: 39px;"
+                            },
+                            {
+                                "query": "max-width: 768px",
+                                "style": "flex-direction: column; gap: 40px; padding-block: 41px 55px;"
                             }
                         ],
                         "children": [
@@ -3008,11 +3026,17 @@
                             },
                             {
                                 "element": "cwrap-template",
-                                "text": "cwrapTemplate[routeNavigation(linksColor=#FBFCFE)]"
+                                "text": "cwrapTemplate[routeNavigation(linksColor=#FBFCFE,ulNavigation768=margin-left: unset; flex-direction: column;)]"
                             },
                             {
                                 "element": "div",
                                 "style": "align-items: center; display: flex; gap: 24px; margin-left: auto;",
+                                "mediaQueries": [
+                                    {
+                                        "query": "max-width: 768px",
+                                        "style": "margin-left: unset;"
+                                    }
+                                ],
                                 "blueprint": {
                                     "count": "3",
                                     "element": "cwrap-template",

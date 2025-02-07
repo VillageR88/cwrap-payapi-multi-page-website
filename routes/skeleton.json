@@ -215,6 +215,12 @@
       "element": "div",
       "name": "thirdRow",
       "style": "margin-inline: auto; margin-top: 150px; max-width: 90em; width: 100%;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 768px",
+          "style": "margin-top: 80px;"
+        }
+      ],
       "children": [
         {
           "element": "div",
