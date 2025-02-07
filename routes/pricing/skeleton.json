@@ -15,19 +15,47 @@
     {
       "element": "form",
       "style": "align-items: start; display: flex; flex-direction: column; margin-bottom: 96px; margin-inline: auto; margin-top: 74px; max-width: 69.375em; width: 100%;",
+      "mediaQueries": [
+        {
+          "query": "max-width: 1200px",
+          "style": "box-sizing: border-box; max-width: unset; padding-inline: 39px;"
+        },
+        {
+          "query": "max-width: 1024px",
+          "style": "align-items: center; text-align: center;"
+        }
+      ],
       "children": [
         {
           "element": "h1",
           "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 3.5rem; font-weight: 400; letter-spacing: -0.027rem; line-height: 3.5rem; margin-bottom: 72px;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1024px",
+              "style": "font-size: 48px; line-height: 56px;"
+            }
+          ],
           "text": "Pricing"
         },
         {
           "element": "ul",
           "style": "display: flex; justify-content: space-between; width: 100%;",
+          "mediaQueries": [
+            {
+              "query": "max-width: 1024px",
+              "style": "align-items: center; text-align: center;"
+            }
+          ],
           "blueprint": {
             "count": "3",
             "element": "li",
             "style": "display: flex; flex-direction: column; max-width: 350px; width: 100%;",
+            "mediaQueries": [
+              {
+                "query": "max-width: 1024px",
+                "style": "align-items: center; max-width: 233px; text-align: center;"
+              }
+            ],
             "children": [
               {
                 "element": "div",
@@ -35,7 +63,13 @@
                   {
                     "element": "h2",
                     "text": "cwrapGlobal[pricing.plan.cwrapIndex.title]",
-                    "style": "color: #BA4270; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px;"
+                    "style": "color: #BA4270; font-size: 32px; font-weight: 400; letter-spacing: -0.25px; line-height: 40px;",
+                    "mediaQueries": [
+                      {
+                        "query": "max-width: 1024px",
+                        "style": "font-size: 24px; letter-spacing: -0.18px;"
+                      }
+                    ]
                   },
                   {
                     "element": "div",
@@ -49,7 +83,13 @@
                       {
                         "element": "p",
                         "text": "cwrapGlobal[pricing.plan.cwrapIndex.price]",
-                        "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 56px; letter-spacing: -0.43px; line-height: 72px; margin-top: 8px;"
+                        "style": "color: #36536B; font-family: \"DM Serif Display\", serif; font-size: 56px; letter-spacing: -0.43px; line-height: 72px; margin-top: 8px;",
+                        "mediaQueries": [
+                          {
+                            "query": "max-width: 1024px",
+                            "style": "font-size: 48px; letter-spacing: -0.37px;"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -58,11 +98,23 @@
               {
                 "element": "ul",
                 "style": "border-block: 1px solid rgba(54,83,107,0.25); display: flex; flex-direction: column; gap: 8px; list-style-image: url(\"../static/images/shared/desktop/icon-check.svg\"); margin-top: 24px; padding-block: 24px;",
+                "mediaQueries": [
+                  {
+                    "query": "max-width: 1024px",
+                    "style": "align-items: center; width: 100%;"
+                  }
+                ],
                 "blueprint": {
                   "count": "7",
                   "element": "li",
                   "text": "cwrapGlobal[pricing.features.cwrapIndex1]",
                   "style": "color: #36536B; font-family: \"Public Sans\", serif; font-size: 16px; gap: 10px; line-height: 28px; list-style: cwrapArray[cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,none,none,none,none] cwrapBreak cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,none,none] cwrapBreak cwrapOmit]; margin-left: 20px; opacity: cwrapArray[cwrapArray[1,1,1,0.5,0.5,0.5,0.5] cwrapBreak cwrapArray[1,1,1,1,1,0.5,0.5] cwrapBreak 1]; padding-left: 16px;",
+                  "mediaQueries": [
+                    {
+                      "query": "max-width: 1024px",
+                      "style": "align-self: start; margin-inline: 60px; text-align: start;"
+                    }
+                  ],
                   "attributes": {
                     "aria-label": "cwrapArray[cwrapArray[Included,Included,Included,Not included,Not included,Not included,Not included] cwrapBreak cwrapArray[Included,Included,Included,Included,Included,Not included,Not included] cwrapBreak Included]",
                     "aria-hidden": "cwrapArray[cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,true,true,true,true] cwrapBreak cwrapArray[cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,cwrapOmit,true,true] cwrapBreak cwrapOmit]"
