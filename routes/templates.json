@@ -2932,7 +2932,7 @@
         "mediaQueries": [
             {
                 "query": "max-width: 1024px",
-                "style": "background-position: 55% -30em; background-size: 120% 50em;"
+                "style": "background-position: 55% -30em; background-size: {{return cwrapRoute !== '' ? 'unset' : '120% 50em'}}; {{return cwrapRoute === '' ? '' : 'background-position: calc(50% + 29em) -33em'}}"
             },
             {
                 "query": "max-width: 768px",
